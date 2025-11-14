@@ -1,0 +1,349 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5732]  Target information:
+
+Player connection [5732]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2090065603 [EditorId] 2090065603 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5732] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5732] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010047 seconds.
+- Loaded All Assemblies, in  0.905 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1512ms
+	BeginReloadAssembly (387ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (263ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.488 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.283 seconds
+Domain Reload Profiling: 2761ms
+	BeginReloadAssembly (558ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (802ms)
+		LoadAssemblies (568ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (228ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (917ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (640ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (4.2 MB). Loaded Objects now: 6874.
+Memory consumption went from 209.4 MB to 205.3 MB.
+Total: 10.475800 ms (FindLiveObjects: 0.668300 ms CreateObjectMapping: 0.410400 ms MarkObjects: 6.895500 ms  DeleteObjects: 2.499800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27159.568119 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/base/hex_grass_bottom.fbx
+  artifactKey: Guid(20a2923990c3fe1498f17366acebd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/base/hex_grass_bottom.fbx using Guid(20a2923990c3fe1498f17366acebd6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6e9a7d458994ab7267040174d1c1848') in 0.8674512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.779858 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/bucket_arrows.fbx
+  artifactKey: Guid(c8c9e93c9e1f38d42999fbee32a68539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/bucket_arrows.fbx using Guid(c8c9e93c9e1f38d42999fbee32a68539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '744c0d294cada1f3c624f80a3594f3af') in 0.1249558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/target.fbx
+  artifactKey: Guid(b7c1497cf608d474aa1314587e2fa0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/target.fbx using Guid(b7c1497cf608d474aa1314587e2fa0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '209c35b4e8c8ec7767eccab3a9bfd6c9') in 0.0549104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_A_small.fbx
+  artifactKey: Guid(7dc70a7a7f387bd42b6b907e6b4df3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_A_small.fbx using Guid(7dc70a7a7f387bd42b6b907e6b4df3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59e60357d9bc7458115ea0ebac8045d0') in 0.0494198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_B_small.fbx
+  artifactKey: Guid(9d93921b84df2044a880535f657f4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_B_small.fbx using Guid(9d93921b84df2044a880535f657f4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8197869e6ed471f62ad6fb2f56a2505d') in 0.0876035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_long_A.fbx
+  artifactKey: Guid(d4b87e6e40b5842469b89af4fd1c2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/decoration/props/crate_long_A.fbx using Guid(d4b87e6e40b5842469b89af4fd1c2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f140008ad2639c580ad6652a321d34') in 0.0432152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.167751 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/hex_coast_B.fbx
+  artifactKey: Guid(ea2f84cfa326caa49b1437fe97121b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/hex_coast_B.fbx using Guid(ea2f84cfa326caa49b1437fe97121b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33c39392d7cb818fc5413a05fb186042') in 0.1052676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/hexagons_medieval.png
+  artifactKey: Guid(a9fa49021acb01c4593b5972c2fbb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/hexagons_medieval.png using Guid(a9fa49021acb01c4593b5972c2fbb76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '021370e6943216eabf82adba9ca2a18a') in 0.0239551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.529746 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hex_river_A_curvy.fbx
+  artifactKey: Guid(8e6c613c63524e144aaedbb5c0ebbba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hex_river_A_curvy.fbx using Guid(8e6c613c63524e144aaedbb5c0ebbba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a5d743c4be916a894206ee9caddb417') in 0.1500401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hexagons_medieval.png
+  artifactKey: Guid(c0d3f2ad177445446acbda316c73daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hexagons_medieval.png using Guid(c0d3f2ad177445446acbda316c73daf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd6d929c230b84b4653808fee9978a39') in 0.0195431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hex_river_K.fbx
+  artifactKey: Guid(b85fd2578be393f4793d3796a9ab1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/hex_river_K.fbx using Guid(b85fd2578be393f4793d3796a9ab1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74f3f52329f8262d304cc76bbd1f3b2d') in 0.1400795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408481 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_A_sloped_high.fbx
+  artifactKey: Guid(c331bbacc900b084cb69a6e040266e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_A_sloped_high.fbx using Guid(c331bbacc900b084cb69a6e040266e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58c17dc4cc8f8078c8115c416806f95f') in 0.3131341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_H.fbx
+  artifactKey: Guid(d14aa473d709988419d399c938c2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_H.fbx using Guid(d14aa473d709988419d399c938c2ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18efe4586630b675e443434e2f61b25d') in 0.0545323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_K.fbx
+  artifactKey: Guid(6ca6c04bb243e264399e4004864f1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/roads/hex_road_K.fbx using Guid(6ca6c04bb243e264399e4004864f1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6145d67e3efefb86779dbdfca0600ef7') in 0.1502173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.700292 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_A_waterless.fbx
+  artifactKey: Guid(61f8541a3c350244e8ae6fba6d8a1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_A_waterless.fbx using Guid(61f8541a3c350244e8ae6fba6d8a1fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eaf41cf81449674fb2c7f973170da60') in 0.1662931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_G_waterless.fbx
+  artifactKey: Guid(79fc0b354abc65043a67d81eedf7030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_G_waterless.fbx using Guid(79fc0b354abc65043a67d81eedf7030d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79bef136b40c6c432c73206bc6f23cd0') in 0.130019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_L_waterless.fbx
+  artifactKey: Guid(a62e126217a4bfb4599ee4ef5b3fda71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/rivers/waterless/hex_river_L_waterless.fbx using Guid(a62e126217a4bfb4599ee4ef5b3fda71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b686b323bcd71dcf08af3ec0c447fa3e') in 0.1282426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.059832 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hex_coast_B_waterless.fbx
+  artifactKey: Guid(29fb330acd77d9a48a3f9239a411475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hex_coast_B_waterless.fbx using Guid(29fb330acd77d9a48a3f9239a411475d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6019df8ce6751743c58e9a86bb4ac489') in 0.054569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hexagons_medieval.png
+  artifactKey: Guid(ab8d0746357c3fa48bb302da984c0add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hexagons_medieval.png using Guid(ab8d0746357c3fa48bb302da984c0add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43a59abe1c174953fa10b98fe397fa26') in 0.008898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hex_coast_E_waterless.fbx
+  artifactKey: Guid(8a61eeb9435a0f945b3157f7468bd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/tiles/coast/waterless/hex_coast_E_waterless.fbx using Guid(8a61eeb9435a0f945b3157f7468bd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '787c0daffe8f5836ab26ae5dd4e8822f') in 0.0422914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

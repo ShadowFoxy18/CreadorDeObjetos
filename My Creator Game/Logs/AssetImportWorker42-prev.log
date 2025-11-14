@@ -1,0 +1,293 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker42
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker42.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4208]  Target information:
+
+Player connection [4208]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 3884684010 [EditorId] 3884684010 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005901 seconds.
+- Loaded All Assemblies, in  0.837 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.600 seconds
+Domain Reload Profiling: 1432ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (231ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.205 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.142 seconds
+Domain Reload Profiling: 2340ms
+	BeginReloadAssembly (579ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (62ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (836ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (590ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (4.1 MB). Loaded Objects now: 6874.
+Memory consumption went from 208.3 MB to 204.2 MB.
+Total: 11.645000 ms (FindLiveObjects: 2.293500 ms CreateObjectMapping: 0.448900 ms MarkObjects: 6.324500 ms  DeleteObjects: 2.576500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51861.119287 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/poles-horizontal.fbx
+  artifactKey: Guid(f77737d930f402c45bd8aec741f1576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/poles-horizontal.fbx using Guid(f77737d930f402c45bd8aec741f1576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f4381a9b35afdfc420396bd35b0f45') in 1.1027538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-gable-detail.fbx
+  artifactKey: Guid(152653d07eaf69141bacb9c9d7058d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-gable-detail.fbx using Guid(152653d07eaf69141bacb9c9d7058d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f98f7b841cc6de40c59851f34bc3e659') in 0.1095362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-corner-round.fbx
+  artifactKey: Guid(1f9f1a8d8783d2f4180bacd275915356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-corner-round.fbx using Guid(1f9f1a8d8783d2f4180bacd275915356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15ff34cd0b06c9a09c0bfe5a0f906265') in 0.1839324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150817 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-gable-end.fbx
+  artifactKey: Guid(959cac6ffc656144bb85a4b9a96eb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-gable-end.fbx using Guid(959cac6ffc656144bb85a4b9a96eb0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc5c29cd788ed62f78de238b2713d8e') in 0.4179941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-window.fbx
+  artifactKey: Guid(057470c7a2287594596ab137a120a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-window.fbx using Guid(057470c7a2287594596ab137a120a78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a9aa79c40ead29ee9663c61b737a98') in 0.2214117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038657 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-stone.fbx
+  artifactKey: Guid(9d78797dcb45285449772f651eb813c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-stone.fbx using Guid(9d78797dcb45285449772f651eb813c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee81e17405755742cbd730337e4d96bf') in 0.2799125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree.fbx
+  artifactKey: Guid(a4db831acf03e754a933503af30faad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree.fbx using Guid(a4db831acf03e754a933503af30faad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '677f2d552a661226e7f52f97aafa7827') in 0.1488539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-curved.fbx
+  artifactKey: Guid(1ce9ec4df284ba34992a5f9eb3ecb612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-curved.fbx using Guid(1ce9ec4df284ba34992a5f9eb3ecb612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa80867756b78b4fe949dcc5a6bd150c') in 0.2372273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree-high-crooked.fbx
+  artifactKey: Guid(b9d393164ce12cd47a2af57e430c8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree-high-crooked.fbx using Guid(b9d393164ce12cd47a2af57e430c8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9a867839fa205ccd68eb15176202451') in 0.1304398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-corner-edge.fbx
+  artifactKey: Guid(57fed9f2230381647959c838b1482a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-corner-edge.fbx using Guid(57fed9f2230381647959c838b1482a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f39375dd42a5519f855f592f518151e0') in 0.0515979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-diagonal.fbx
+  artifactKey: Guid(6f02c4dcd13de5746b746d14914a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-diagonal.fbx using Guid(6f02c4dcd13de5746b746d14914a68c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47593b520755213bdc22c5d64527e3d3') in 0.2788628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-arch-top-detail.fbx
+  artifactKey: Guid(dce9ed9e7a0fe07488c9438bf5a083d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-arch-top-detail.fbx using Guid(dce9ed9e7a0fe07488c9438bf5a083d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c3148ef5ed6a417ce369454fed714ac') in 0.350681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stall.fbx
+  artifactKey: Guid(843cbc6c55d152a40b698c41c081aba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stall.fbx using Guid(843cbc6c55d152a40b698c41c081aba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7024ee44bf6eaef06ac1eeaa3a3bd21c') in 0.3738664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

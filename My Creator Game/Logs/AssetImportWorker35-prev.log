@@ -1,0 +1,317 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker35
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker35.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26928]  Target information:
+
+Player connection [26928]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 1937491820 [EditorId] 1937491820 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26928] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006978 seconds.
+- Loaded All Assemblies, in  0.805 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1410ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.810 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 3057ms
+	BeginReloadAssembly (853ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (783ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (908ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (635ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (4.2 MB). Loaded Objects now: 6874.
+Memory consumption went from 208.6 MB to 204.4 MB.
+Total: 9.477300 ms (FindLiveObjects: 0.706900 ms CreateObjectMapping: 0.597500 ms MarkObjects: 5.837100 ms  DeleteObjects: 2.334100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40547.350402 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/fence-damaged.png
+  artifactKey: Guid(7084d3d1e215ce74a98dbc7ccd0eaad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/fence-damaged.png using Guid(7084d3d1e215ce74a98dbc7ccd0eaad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '424e9909f9b56e34604095c75426e4e4') in 0.0660174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.756716 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/fence-gate.png
+  artifactKey: Guid(4495a08a5a1dfd744ba050bbe9ebbc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/fence-gate.png using Guid(4495a08a5a1dfd744ba050bbe9ebbc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218c8e331c52c38024d4b11d59e0d630') in 0.0245601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.662985 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/fire-basket.png
+  artifactKey: Guid(fa184e5925e7d544984da7b688bbce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/fire-basket.png using Guid(fa184e5925e7d544984da7b688bbce98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '874377d91da4667353cc9cdff036a393') in 0.0142027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-bevel.png
+  artifactKey: Guid(b17b8418e7384c649af268cf001d609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-bevel.png using Guid(b17b8418e7384c649af268cf001d609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37d56b031c94341616eb79324273fe11') in 0.02318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.978144 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-cross-large.png
+  artifactKey: Guid(a353c10e7f1b2404fb25be6557fad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-cross-large.png using Guid(a353c10e7f1b2404fb25be6557fad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39e817ef61e9391ec07307d3328e4675') in 0.014984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-roof.png
+  artifactKey: Guid(72d9aa214ac37584ab778ad2870e2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/gravestone-roof.png using Guid(72d9aa214ac37584ab778ad2870e2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2243ab74a387ae9621e828babb78662') in 0.0196205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.272389 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/hay-bale.png
+  artifactKey: Guid(9588a88d2e6818440ab61e1e32f8f047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/hay-bale.png using Guid(9588a88d2e6818440ab61e1e32f8f047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df3e33bd9c007268ffa0715346251e50') in 0.0149573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-border.png
+  artifactKey: Guid(047c70624eafc6a42b31a02d98f9c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-border.png using Guid(047c70624eafc6a42b31a02d98f9c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe4a59e73991a7f706e9cd5df058cf96') in 0.02031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.531382 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-border-curve.png
+  artifactKey: Guid(972bbcd3a6d3248468f8a1797da0a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-border-curve.png using Guid(972bbcd3a6d3248468f8a1797da0a747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f43a6412b702dc91171ef005965e8c') in 0.0132088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-damaged.png
+  artifactKey: Guid(d522f70fe1b10f34a92c4addf913ebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/iron-fence-damaged.png using Guid(d522f70fe1b10f34a92c4addf913ebae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8629063d480e45367da267c77e840679') in 0.0204257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060368 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/lightpost-all.png
+  artifactKey: Guid(433e9a0f914b61c49b6ff56445a21fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/lightpost-all.png using Guid(433e9a0f914b61c49b6ff56445a21fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8afc8f5eec02389b2e1bc70e67851c90') in 0.0138525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/pillar-obelisk.png
+  artifactKey: Guid(f5887ef29a4692e47ab0864b25a66479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/pillar-obelisk.png using Guid(f5887ef29a4692e47ab0864b25a66479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f85ad607aaac3758ef273233c495f122') in 0.0229608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202563 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/pillar-square.png
+  artifactKey: Guid(e176289a9e4e83a458eee0a9920a06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/pillar-square.png using Guid(e176289a9e4e83a458eee0a9920a06e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad0b661fb46e6fb3d699794fea16a634') in 0.0138383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/pine-fall.png
+  artifactKey: Guid(f3be9f173e39b3246af3f5056e593b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/pine-fall.png using Guid(f3be9f173e39b3246af3f5056e593b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c73dcda9e6fabb2d744aed3ceaf583') in 0.0159647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/pumpkin-tall.png
+  artifactKey: Guid(6f47de833c4fa66479268f75140808eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/pumpkin-tall.png using Guid(6f47de833c4fa66479268f75140808eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7ddcb3502f71674b6fd98d133da7484') in 0.0144158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Previews_ext/shovel-dirt.png
+  artifactKey: Guid(4fb8fefb05a342a46aab4a63196e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Previews_ext/shovel-dirt.png using Guid(4fb8fefb05a342a46aab4a63196e983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e0706061f64d6a6b9a7e8de3fceb7c') in 0.0135959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

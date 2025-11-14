@@ -1,0 +1,725 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62967
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10912]  Target information:
+
+Player connection [10912]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 4157380514 [EditorId] 4157380514 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10912] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006588 seconds.
+- Loaded All Assemblies, in  0.923 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.887 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (361ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (299ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (63ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.495 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.503 seconds
+Domain Reload Profiling: 4980ms
+	BeginReloadAssembly (1017ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (1172ms)
+		LoadAssemblies (1010ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (473ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (343ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1916ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (1444ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (4.4 MB). Loaded Objects now: 6874.
+Memory consumption went from 200.4 MB to 196.0 MB.
+Total: 15.308900 ms (FindLiveObjects: 1.027300 ms CreateObjectMapping: 0.914200 ms MarkObjects: 8.735900 ms  DeleteObjects: 4.627700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101750.658915 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f3f2433d2ff10cd5a236469f1214d1f') in 1.0617974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6326f1a59387b6c191755a0e2dadbb3') in 0.0690671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3510.911886 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-corner-large.png
+  artifactKey: Guid(e7ca1e401ada7e846af8b205620c9472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-corner-large.png using Guid(e7ca1e401ada7e846af8b205620c9472) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add74a3248ff9de9c330c8e339803783') in 0.0830798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-corner-square.png
+  artifactKey: Guid(20f3c818e1391fd48bb3866bc32b206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-corner-square.png using Guid(20f3c818e1391fd48bb3866bc32b206a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39901f61526d78f158dbb16e0934ef53') in 0.0461185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-wide-corner.png
+  artifactKey: Guid(6d07ba9b4e0bbeb4cb06ab20757ae2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-wide-corner.png using Guid(6d07ba9b4e0bbeb4cb06ab20757ae2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c5acd88af83032bcce0695593c1c196') in 0.0709516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-straight-slope.png
+  artifactKey: Guid(d609e8b3bf187e740a7d78c0b2724282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-straight-slope.png using Guid(d609e8b3bf187e740a7d78c0b2724282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3922a93148372b05393b44ad1db0cd7') in 0.0441281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-crystal.png
+  artifactKey: Guid(d55c90c4423229c459bcbcef2a685b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-crystal.png using Guid(d55c90c4423229c459bcbcef2a685b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2262210451fa7d0da40500abbc0718a9') in 0.0416961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-hill.png
+  artifactKey: Guid(b0ac80a550f4b4740b2a272aee0df0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-hill.png using Guid(b0ac80a550f4b4740b2a272aee0df0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f36ea00db8c44900af794a9989d97192') in 0.0321006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-corner-round.png
+  artifactKey: Guid(9e4136a454e660849a60c96adbee3307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-corner-round.png using Guid(9e4136a454e660849a60c96adbee3307) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'febf53ec3cb0085bdbcb5ec8db45f6a1') in 0.0394324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Kit/Tower Defense/Previews/spawn-square.png
+  artifactKey: Guid(df80b52f3048cc2468ece0160ba8c5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/spawn-square.png using Guid(df80b52f3048cc2468ece0160ba8c5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dca65cf2c3860034df8a62caff7668a8') in 0.027854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-corner-inner.png
+  artifactKey: Guid(89eff8a850e4a1149b396edb8e499e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-corner-inner.png using Guid(89eff8a850e4a1149b396edb8e499e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31ff243236a4450359b26e314f2bf0fb') in 0.0290954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-tree-quad.png
+  artifactKey: Guid(fb5e859f1b0d4d949ae98117546ff262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-tree-quad.png using Guid(fb5e859f1b0d4d949ae98117546ff262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6b9b035276363d12bf32f43f9004710') in 0.0355137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-spawn-round.png
+  artifactKey: Guid(1229f268a79e2814083e11fcc00f5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-spawn-round.png using Guid(1229f268a79e2814083e11fcc00f5cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe4fca77b2c7f00312fbbad987702ab') in 0.0302118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-wide-straight.png
+  artifactKey: Guid(c89f3a82899108f468c784c7eed398fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-wide-straight.png using Guid(c89f3a82899108f468c784c7eed398fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd260ec06e1f9493014adb0d6d46704d') in 0.0268821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-slope.png
+  artifactKey: Guid(a3e74406424a1df42ae7c8c17864859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-slope.png using Guid(a3e74406424a1df42ae7c8c17864859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11bee0ce260b0aee8671a3e67a7d868c') in 0.02593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-dirt.png
+  artifactKey: Guid(a185a8e4ed9b5d84ab71fd98699b11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-dirt.png using Guid(a185a8e4ed9b5d84ab71fd98699b11bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e760da46ae66cecb97e8e88ddf360084') in 0.0276544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-hill.png
+  artifactKey: Guid(9261d8c167515784394019fe717b06fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-hill.png using Guid(9261d8c167515784394019fe717b06fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a5fc0fe9f6b6a76d9eed9e8249ec28d') in 0.0222544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-river-transition.png
+  artifactKey: Guid(514a6da669d959f4fb8a50f4cc12f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-river-transition.png using Guid(514a6da669d959f4fb8a50f4cc12f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0052ff1df04c7db1155c7c2c3f673cc2') in 0.0278614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-river-straight.png
+  artifactKey: Guid(2d664554e6e85464b87b9749ab71c37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-river-straight.png using Guid(2d664554e6e85464b87b9749ab71c37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a07908e1b415da11f12bfbade64660d9') in 0.0233456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-end-round.png
+  artifactKey: Guid(d5f498567a81d654ca6046a4cfeaf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-end-round.png using Guid(d5f498567a81d654ca6046a4cfeaf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4788eecdf3f49ffd553bc9ac121f6c80') in 0.0254662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-river-corner.png
+  artifactKey: Guid(5b4c5f0cfeaed1c429b4d6992c359a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-river-corner.png using Guid(5b4c5f0cfeaed1c429b4d6992c359a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccd961b17d52a8bb75c019c0da140b83') in 0.0203499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-spawn-round.png
+  artifactKey: Guid(ac3fa560f2bb7854e9fc2640ceb2800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-spawn-round.png using Guid(ac3fa560f2bb7854e9fc2640ceb2800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b545a074ce0c8cd1e09a5fa631d5c12d') in 0.0164364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-tree-quad.png
+  artifactKey: Guid(d7b04c1fdd00a11409e40866aaf4cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-tree-quad.png using Guid(d7b04c1fdd00a11409e40866aaf4cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdcf0aabd95de6f70a95d142c3549636') in 0.0143346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-wide-straight.png
+  artifactKey: Guid(527bf1d0643d9884594fd7a44a7a11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-wide-straight.png using Guid(527bf1d0643d9884594fd7a44a7a11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd22316d569cec6e221da7ef7e0dfe48') in 0.0251813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-bottom-b.png
+  artifactKey: Guid(99b970f9944661442ba6ee2151e843eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-bottom-b.png using Guid(99b970f9944661442ba6ee2151e843eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5155bbcc8a5c16bb2c28943a82589aad') in 0.0190628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-straight.png
+  artifactKey: Guid(55f7f9c53eb51a246a2b54fb55cd3e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-straight.png using Guid(55f7f9c53eb51a246a2b54fb55cd3e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfa79ffe9a1859baf5cbd85a10ab221a') in 0.0312439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-wide-split.png
+  artifactKey: Guid(f9638fb515365374aa7789fa91e7ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-wide-split.png using Guid(f9638fb515365374aa7789fa91e7ca94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd8c5ee52f2b725f329f9cd539d63a21') in 0.0371755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-river-slope-large.png
+  artifactKey: Guid(702aa97e1a1dae64fb2759e2344ca7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-river-slope-large.png using Guid(702aa97e1a1dae64fb2759e2344ca7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7cc82ce202973e7c59c40610022e4b9') in 0.0274339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-rock.png
+  artifactKey: Guid(43823b4fc7589584ea866dc392cc8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-rock.png using Guid(43823b4fc7589584ea866dc392cc8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe2d04091613419069cc11afea2cfd14') in 0.0263158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-river-corner.png
+  artifactKey: Guid(4a016d625c3b33b449bbee0d50407858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-river-corner.png using Guid(4a016d625c3b33b449bbee0d50407858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e5d8189d0cd608074dd911ab3966eec') in 0.0311771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-river-waterfall.png
+  artifactKey: Guid(ff6e8ce277fea26418e767b63a9e2a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-river-waterfall.png using Guid(ff6e8ce277fea26418e767b63a9e2a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93c54c297efef46de521610bf49e56f5') in 0.0212154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-slope.png
+  artifactKey: Guid(644bc34aad841474ebdd39188fa47ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-slope.png using Guid(644bc34aad841474ebdd39188fa47ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec798206ce45a391d14041a4f153ad3') in 0.0225014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-build-d.png
+  artifactKey: Guid(2960f6149c42ed347893aab53ca7a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-build-d.png using Guid(2960f6149c42ed347893aab53ca7a3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa273ad13b68e319261e4e95ae0c0a8') in 0.0221098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-middle-c.png
+  artifactKey: Guid(1bcf62009dd40664ba9716767aafa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-middle-c.png using Guid(1bcf62009dd40664ba9716767aafa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea704364db79b35198f1b511e6eda19d') in 0.0208508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-top-b.png
+  artifactKey: Guid(ed1a06cdc7ca40e4981a9d087cc2e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-top-b.png using Guid(ed1a06cdc7ca40e4981a9d087cc2e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9cda11b402c849ce9fcfb99f935a005') in 0.0272334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-build-e.png
+  artifactKey: Guid(8bbb5b466f71a4046a8a7c61bf74aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-build-e.png using Guid(8bbb5b466f71a4046a8a7c61bf74aa02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b8a60a5d5b59bb207c82973bbbd2bda') in 0.0321373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-spawn-end.png
+  artifactKey: Guid(f38674e20ef342c48a9b5c5dcdf45842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-spawn-end.png using Guid(f38674e20ef342c48a9b5c5dcdf45842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '443af07404eaf0d3c96b4ff039ca3964') in 0.0327863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-corner-square.png
+  artifactKey: Guid(b426a55c2cc459d468241886d25c1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-corner-square.png using Guid(b426a55c2cc459d468241886d25c1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b76111a7f6b62f0dbc6227638513e0') in 0.0225755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-top-c.png
+  artifactKey: Guid(f9d7a773cff3f96488f0ff55b4d9a985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-top-c.png using Guid(f9d7a773cff3f96488f0ff55b4d9a985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd52e9f8df5f92f40f805357704f07974') in 0.0186325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-bottom-b.png
+  artifactKey: Guid(61280855b4c3e9a489b169c0dc148206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-bottom-b.png using Guid(61280855b4c3e9a489b169c0dc148206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56d66141b180fc2b260fd198ed92a5f5') in 0.0191616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-build-e.png
+  artifactKey: Guid(4add20bae2df9ba42b4c2fb74d7ba721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-build-e.png using Guid(4add20bae2df9ba42b4c2fb74d7ba721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c83cc59d37d338023b4643e6f762cff7') in 0.0372162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-middle-b.png
+  artifactKey: Guid(35ada300b09816d4f9b2efc403d8feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-middle-b.png using Guid(35ada300b09816d4f9b2efc403d8feec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcbcfe831a1a589e8905350100d5db17') in 0.0341907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-build-f.png
+  artifactKey: Guid(0890c35bd3635d744bff3b8a2589b2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-build-f.png using Guid(0890c35bd3635d744bff3b8a2589b2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e18849c329ecc84e9e840d56086f8649') in 0.0445254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-bottom-c.png
+  artifactKey: Guid(1cc4923aa5434924ab7b248b1c1b895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-bottom-c.png using Guid(1cc4923aa5434924ab7b248b1c1b895d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72870cb35e69d759ce94fa608f140b9') in 0.0205942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-top-c.png
+  artifactKey: Guid(28e4544717d24864c9ac21e792d9ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-top-c.png using Guid(28e4544717d24864c9ac21e792d9ff3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2260441a41a1cfed7a9147b531471278') in 0.0186085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kit/Tower Defense/Previews/weapon-ammo-bullet.png
+  artifactKey: Guid(5a80fd040a2e86142a2370cdc5c65e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/weapon-ammo-bullet.png using Guid(5a80fd040a2e86142a2370cdc5c65e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9141d7a881323d27dcb7ff70e5a5974e') in 0.0609363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Tower Defense/Previews/weapon-ammo-boulder.png
+  artifactKey: Guid(ccfdcd6d38297a24a8dd053633301546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/weapon-ammo-boulder.png using Guid(ccfdcd6d38297a24a8dd053633301546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fdf90d7aeedf68395dbe2ec49ca006') in 0.0232032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Tower Defense/Previews/weapon-turret.png
+  artifactKey: Guid(cd0c345c497130f4f8aead3508428f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/weapon-turret.png using Guid(cd0c345c497130f4f8aead3508428f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aff9020049cac15113affb1eeffcc79') in 0.029122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Kit/Tower Defense/Previews/weapon-ballista.png
+  artifactKey: Guid(494972f3ae2d2e9409a764c8d096dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/weapon-ballista.png using Guid(494972f3ae2d2e9409a764c8d096dc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26051c21636d973fdb8c41679894edaa') in 0.0325169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-middle-a.png
+  artifactKey: Guid(3746ddc3529776241b7c2320c3d8bc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-middle-a.png using Guid(3746ddc3529776241b7c2320c3d8bc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de3571f1f53d9b7c485d8d20f399de65') in 0.019807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Tower Defense/Previews/wood-structure-high.png
+  artifactKey: Guid(33196fe4e02b112449b2bc906dd42efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/wood-structure-high.png using Guid(33196fe4e02b112449b2bc906dd42efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7920b439d78a5cd1fec3c97b8826cc6b') in 0.0504207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Tower Defense/Previews/wood-structure-high-part.png
+  artifactKey: Guid(4224d56a5c76e664fa8ff5f5bb400e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/wood-structure-high-part.png using Guid(4224d56a5c76e664fa8ff5f5bb400e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1f400558ddde9bc2e5d907662ee588') in 0.0317808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-spawn-end.png
+  artifactKey: Guid(2cef7395b22b42d498e585b3456d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-spawn-end.png using Guid(2cef7395b22b42d498e585b3456d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62fc7dd94923f12813583835286aa1fd') in 0.0309474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-build-b.png
+  artifactKey: Guid(faff9047213cf354c920a729d4bc1e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-build-b.png using Guid(faff9047213cf354c920a729d4bc1e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60eb852541b8a35e7c2d614126155e80') in 0.0247733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-corner-large.png
+  artifactKey: Guid(514033c04faeac640962542e434e4e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-corner-large.png using Guid(514033c04faeac640962542e434e4e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30d7aeddd6802fd4ad5dc6f721298dc5') in 0.031423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Tower Defense/Previews/spawn-round.png
+  artifactKey: Guid(b6aab668b99186b409ab21eaa6f6b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/spawn-round.png using Guid(b6aab668b99186b409ab21eaa6f6b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97a6130a912b3e4853e96c0de15cf3a') in 0.0376906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-build-c.png
+  artifactKey: Guid(ae748e2c7ec91da4bb0a6452717cff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-build-c.png using Guid(ae748e2c7ec91da4bb0a6452717cff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56920da8c2d541a4387bf20dd6ad191') in 0.026274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-roof-b.png
+  artifactKey: Guid(4d19ce7c359aff44588fdefc7fdf0cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-roof-b.png using Guid(4d19ce7c359aff44588fdefc7fdf0cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db59b6d120658974ae87336edf91997b') in 0.0281842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-middle-a.png
+  artifactKey: Guid(1cab82cefcf834e488a389df8bd62a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-middle-a.png using Guid(1cab82cefcf834e488a389df8bd62a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af1fa3fdfdbf8ec5d8bc4ba4ab2a4a2f') in 0.0364945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-tree.png
+  artifactKey: Guid(60975249092fc574d8ecde8dfbb2d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-tree.png using Guid(60975249092fc574d8ecde8dfbb2d5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801315f125fecb4319b7e1a13fd9e199') in 0.0355405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-tile-straight-slope-large.png
+  artifactKey: Guid(a528020b7063aa648bdb563bd8c85567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-tile-straight-slope-large.png using Guid(a528020b7063aa648bdb563bd8c85567) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfbfc753ba0df766dff272ea87c5819e') in 0.0331917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-crystals.png
+  artifactKey: Guid(fc5742d1e164a7a47ba8f0d4a638f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-crystals.png using Guid(fc5742d1e164a7a47ba8f0d4a638f20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6686d3349da0b1112c53df9b4ab0cf44') in 0.031228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Tower Defense/Previews/snow-wood-structure-part.png
+  artifactKey: Guid(f8b386c4a919e9c4a9322cb69aeba995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/snow-wood-structure-part.png using Guid(f8b386c4a919e9c4a9322cb69aeba995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9c1455d273c3165c0216dbf683c3db3') in 0.0367022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-roof-a.png
+  artifactKey: Guid(44ac4a0609cc7264ab030a0ceeb39b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-roof-a.png using Guid(44ac4a0609cc7264ab030a0ceeb39b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd95a85c591e972791856784527a2ee0d') in 0.029995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tile-bump.png
+  artifactKey: Guid(be1427aebf3a3ee4dba8230946f2a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tile-bump.png using Guid(be1427aebf3a3ee4dba8230946f2a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0cb2d997b955b85761b36ed32d46838') in 0.0336059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-square-build-d.png
+  artifactKey: Guid(377a50dbffbedf542898c9b49d704766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-square-build-d.png using Guid(377a50dbffbedf542898c9b49d704766) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd34e677b7acd2355747d781e3f3d9c17') in 0.0259279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Tower Defense/Previews/tower-round-roof-b.png
+  artifactKey: Guid(5a34ead9162b5984c90292b51e2a5ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Previews/tower-round-roof-b.png using Guid(5a34ead9162b5984c90292b51e2a5ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '712c482e6cd497157c4df1521c2f9c45') in 0.0342259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

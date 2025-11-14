@@ -1,0 +1,661 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker43
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker43.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31400]  Target information:
+
+Player connection [31400]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 4032045841 [EditorId] 4032045841 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31400] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006469 seconds.
+- Loaded All Assemblies, in  0.753 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 1339ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (222ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.213 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.173 seconds
+Domain Reload Profiling: 2379ms
+	BeginReloadAssembly (587ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (129ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1174ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (837ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (4.2 MB). Loaded Objects now: 6874.
+Memory consumption went from 206.6 MB to 202.4 MB.
+Total: 10.723900 ms (FindLiveObjects: 2.199700 ms CreateObjectMapping: 0.354400 ms MarkObjects: 5.778800 ms  DeleteObjects: 2.389500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51861.118128 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/planks-opening.fbx
+  artifactKey: Guid(a40b1cb2d9d79fd44b7485ef1836f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/planks-opening.fbx using Guid(a40b1cb2d9d79fd44b7485ef1836f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e15699bee51d848c001e23529c0a31a8') in 1.0882983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-corner-round.fbx
+  artifactKey: Guid(13a66bbfb0c7e434783b99d59274bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-corner-round.fbx using Guid(13a66bbfb0c7e434783b99d59274bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ec84eb8cb0405d7c40bf0c736355db') in 0.0906578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high.fbx
+  artifactKey: Guid(ffb8a0fcefbaacf47ac1358e4015d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high.fbx using Guid(ffb8a0fcefbaacf47ac1358e4015d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a048280ae436346f60269a3cb8c1a657') in 0.0826923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-gable-end.fbx
+  artifactKey: Guid(5b8c0b0a92a4b114abe3e62109fb0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-gable-end.fbx using Guid(5b8c0b0a92a4b114abe3e62109fb0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb4dab8f7c9b95ea649209da4534f1ef') in 0.2809386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-right.fbx
+  artifactKey: Guid(0ed89ae2c0eb8a943b414767db5ab7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-high-right.fbx using Guid(0ed89ae2c0eb8a943b414767db5ab7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad76b25c596757e1cedf375306167de') in 0.348279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-right.fbx
+  artifactKey: Guid(a59f69072f7fa714599764ebe588c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/roof-right.fbx using Guid(a59f69072f7fa714599764ebe588c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fa47519cd9bf6668db1e2284092372c') in 0.233749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028876 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-full-corner-inner.fbx
+  artifactKey: Guid(59fcb431aae14c04d9137370ef487082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-full-corner-inner.fbx using Guid(59fcb431aae14c04d9137370ef487082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdb13d9b3c48b1acc6dafdc9f90ea261') in 0.1709097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-wood-handrail.fbx
+  artifactKey: Guid(49995a082494035468521d48de2edc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-wood-handrail.fbx using Guid(49995a082494035468521d48de2edc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a2245ce5c71d9eeca4bfc301c2254d') in 0.2381232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall.fbx
+  artifactKey: Guid(07de20e6945b8ac48a0a93c5da9b04b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall.fbx using Guid(07de20e6945b8ac48a0a93c5da9b04b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600e498f16f71b63c9458c64670d6ff0') in 0.2085948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-wide-wood-handrail.fbx
+  artifactKey: Guid(e28b7dbaa7b7fdf42a2f894c171db23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-wide-wood-handrail.fbx using Guid(e28b7dbaa7b7fdf42a2f894c171db23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea984a8baaabb705f218660ad9615ff4') in 0.0903431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree-crooked.fbx
+  artifactKey: Guid(61a813b43f7fd1140a1d88c83dda6ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/tree-crooked.fbx using Guid(61a813b43f7fd1140a1d88c83dda6ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28edbcf9d115e8bf675e9733c5545204') in 0.2239688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-detail-diagonal.fbx
+  artifactKey: Guid(61e5b4e4f58c3b947bd2ac9ea962e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-detail-diagonal.fbx using Guid(61e5b4e4f58c3b947bd2ac9ea962e4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e43a88e27691eeda71ad344500dff219') in 0.2681405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-door.fbx
+  artifactKey: Guid(f4e4936add9f27143a0f549d09f7bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-door.fbx using Guid(f4e4936add9f27143a0f549d09f7bf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c70f0408b733e731fe988b2fa9ec4d9') in 0.4856927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-stone-round.fbx
+  artifactKey: Guid(684e213f6eda74243985ba5feaacd801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/stairs-stone-round.fbx using Guid(684e213f6eda74243985ba5feaacd801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b955f419f027d1143c7b769c4bd04e3') in 0.1756153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.437505 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Exterior/Rig ext
+  artifactKey: Guid(71dceaf3e6f86b84696b356b9b0bdb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Exterior/Rig ext using Guid(71dceaf3e6f86b84696b356b9b0bdb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd44e783c32bbc4d4c5f667330f757422') in 0.0007724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.658529 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Samples & Preview
+  artifactKey: Guid(b00ebd567ad6d694da6b110ad95dcbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Samples & Preview using Guid(b00ebd567ad6d694da6b110ad95dcbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '530268d0cfdac9eccca7a3ecda92ad88') in 0.0005814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.886376 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_ext/fantasyKit_ext/heno
+  artifactKey: Guid(cf91f5df1593f924087284172fc9e511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_ext/fantasyKit_ext/heno using Guid(cf91f5df1593f924087284172fc9e511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8532e0c95e8e5b6b027a794bd867e634') in 0.0009039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.231948 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_ext/fantasyKit_ext/farola
+  artifactKey: Guid(8899edca6ab8c834d9423ac37da8e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_ext/fantasyKit_ext/farola using Guid(8899edca6ab8c834d9423ac37da8e40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bc5521c1b1ee8453c03197c6e39b66d') in 0.0006523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.490184 seconds.
+  path: Assets/Kit/Interior/Preview int
+  artifactKey: Guid(89d075ddc48d2de4097e7d345e0539ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Preview int using Guid(89d075ddc48d2de4097e7d345e0539ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '524cce192d586c1f16fa515259b3fcd8') in 0.0005609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.144829 seconds.
+  path: Assets/Kit/Interior/Rig int
+  artifactKey: Guid(866a8c3400e47f5478e949d9b64255fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int using Guid(866a8c3400e47f5478e949d9b64255fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45adc3311427b25135cda5048d391760') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.617549 seconds.
+  path: Assets/Kit/Exterior/Rig ext/carft
+  artifactKey: Guid(682abfd413157264bb66aff3cfdd546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/carft using Guid(682abfd413157264bb66aff3cfdd546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ec8e1dae4ca956ce53630f9220cb783') in 0.0006916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.946082 seconds.
+  path: Assets/Kit/Exterior/Rig ext/cart
+  artifactKey: Guid(682abfd413157264bb66aff3cfdd546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/cart using Guid(682abfd413157264bb66aff3cfdd546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8403c837e317309a4315910f01d6cfe') in 0.0006723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 403.959571 seconds.
+  path: Assets/Kit/Exterior/Rig ext/fountain
+  artifactKey: Guid(fdc8d9230e6552b49804dec2c9fe703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/fountain using Guid(fdc8d9230e6552b49804dec2c9fe703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eec23b9b09e0fbf16ac469db9403fb4') in 0.0007724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.970366 seconds.
+  path: Assets/Kit/Exterior/Rig ext/stone
+  artifactKey: Guid(4ed557e764699a84b90460db94dc0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/stone using Guid(4ed557e764699a84b90460db94dc0a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eaf328d2daf12d434fd92f02648cf21') in 0.0006492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.510689 seconds.
+  path: Assets/Kit/Exterior/Rig ext/tiendas
+  artifactKey: Guid(c9cc695251d9b0d43bb209fc29034982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/tiendas using Guid(c9cc695251d9b0d43bb209fc29034982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5cb5b77d83cf1d706010f62fcd20171') in 0.0006252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.399657 seconds.
+  path: Assets/Kit/Exterior/Rig ext/trees
+  artifactKey: Guid(a7038d645db670b4a8eba9c2a5419d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Exterior/Rig ext/trees using Guid(a7038d645db670b4a8eba9c2a5419d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17812c83289e087db7b5060d7d5984fc') in 0.0008128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 389.331912 seconds.
+  path: Assets/Kit/Interior/Rig int/house
+  artifactKey: Guid(82b473a99cad01b4bb0ba6a2b967ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house using Guid(82b473a99cad01b4bb0ba6a2b967ea23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281ded06aacf72fb2d2cbee8f10642a7') in 0.0008946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.324901 seconds.
+  path: Assets/Kit/Interior/Rig int/house/_mill (ruedas)
+  artifactKey: Guid(bf5ab82744a142c42873a6d7a10899ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/_mill (ruedas) using Guid(bf5ab82744a142c42873a6d7a10899ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b2fb0440d84d367e95095409546c69') in 0.0006855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.170908 seconds.
+  path: Assets/Kit/Interior/Rig int/house/balcon
+  artifactKey: Guid(82cee1f190cc90e42955bbccce612193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/balcon using Guid(82cee1f190cc90e42955bbccce612193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5c253c5830133ec9c441d332ec9bbcf') in 0.0005631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.991632 seconds.
+  path: Assets/Kit/Interior/Rig int/house/bannner
+  artifactKey: Guid(ef5b76fd512e84f408b807a340682b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/bannner using Guid(ef5b76fd512e84f408b807a340682b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02c26894ebd63c50edbff45288f66539') in 0.0006939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.294806 seconds.
+  path: Assets/Kit/Interior/Rig int/house/casa parteMedia
+  artifactKey: Guid(c504d561ddf742e4396da2cf67cb93df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/casa parteMedia using Guid(c504d561ddf742e4396da2cf67cb93df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5da743de56e5f3ece7cf169ed466ab1f') in 0.0006124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.559542 seconds.
+  path: Assets/Kit/Interior/Rig int/house/Chimenea
+  artifactKey: Guid(3e1a33d59e5857349aaa6f72c9450ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/Chimenea using Guid(3e1a33d59e5857349aaa6f72c9450ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4f4a8dd66905a73aafbcaa997435778') in 0.0005494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.349145 seconds.
+  path: Assets/Kit/Interior/Rig int/house/me
+  artifactKey: Guid(3e1a33d59e5857349aaa6f72c9450ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/me using Guid(3e1a33d59e5857349aaa6f72c9450ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c733fd6903b0609481e725c5ba29b2fb') in 0.00076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.093191 seconds.
+  path: Assets/Kit/Interior/Rig int/house/mesa
+  artifactKey: Guid(b3e8696e20ee5bb4a9022e48d2e29d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/mesa using Guid(b3e8696e20ee5bb4a9022e48d2e29d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f66b522a4675dd8089320ffe160fbc11') in 0.0009103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.885178 seconds.
+  path: Assets/Kit/Interior/Rig int/house/planks wood
+  artifactKey: Guid(23d9ae48394487244846ba329e18e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/planks wood using Guid(23d9ae48394487244846ba329e18e3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d114e034b205748fb3e5c850961665e') in 0.0006012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.725540 seconds.
+  path: Assets/Kit/Interior/Rig int/house/stairs
+  artifactKey: Guid(0c9126911bbd9af4c81708f738eccd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/stairs using Guid(0c9126911bbd9af4c81708f738eccd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b3e7afdea828eeacaac4667d425e8c') in 0.0006524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.004188 seconds.
+  path: Assets/Kit/Interior/Rig int/house/techo_rojo
+  artifactKey: Guid(6be517988ea70ce489f307f05db53a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/techo_rojo using Guid(6be517988ea70ce489f307f05db53a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09a5c5f038c7d74719fae80f47092e0a') in 0.0006841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.490981 seconds.
+  path: Assets/Kit/Interior/Rig int/house/techo_verde
+  artifactKey: Guid(4895950278ab9d04cabc3837869e2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Interior/Rig int/house/techo_verde using Guid(4895950278ab9d04cabc3837869e2631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6c2fba515921be6aa97ef139115a80') in 0.0006292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5912.097367 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/balcony-wall.fbx
+  artifactKey: Guid(9777a2e7cbb06ab478d1da2ceebf62b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/balcony-wall.fbx using Guid(9777a2e7cbb06ab478d1da2ceebf62b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '798321b759cbd5170895fdcf9ae4e8cd') in 0.2797369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-curved.fbx
+  artifactKey: Guid(0d2f846cec338be468faedc1d16b1e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-curved.fbx using Guid(0d2f846cec338be468faedc1d16b1e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '723d74fea693cb201f3a1d390ed98734') in 0.1701099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-corner-inner.fbx
+  artifactKey: Guid(5b6a8e06fb4dd3a48baab6d710904602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-corner-inner.fbx using Guid(5b6a8e06fb4dd3a48baab6d710904602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38d486583599068bedc7c36dc204d498') in 0.102064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-edge.fbx
+  artifactKey: Guid(f7b2d050c0de74642b67d7cf62cfbe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-edge.fbx using Guid(f7b2d050c0de74642b67d7cf62cfbe07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f2655f03bac766342dde52baf8c5890') in 0.0739537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-large.fbx
+  artifactKey: Guid(1e6e886f27232164b8fe99084c3eaabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-large.fbx using Guid(1e6e886f27232164b8fe99084c3eaabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '610b0297cef18bfa039c1e3610dd1007') in 0.0534081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fence-broken.fbx
+  artifactKey: Guid(2dbe74e8b284cb84a9103fabe57cd1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fence-broken.fbx using Guid(2dbe74e8b284cb84a9103fabe57cd1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c61503bee86951866f27282efd6587a2') in 0.0534078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/cart-high.fbx
+  artifactKey: Guid(2df3c280fa0fe1c48b9da4294a5b2643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/cart-high.fbx using Guid(2df3c280fa0fe1c48b9da4294a5b2643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd6234397ccfc4012f09341edf0c1614') in 0.0844126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-round-detail.fbx
+  artifactKey: Guid(edfce58a36de947498a0bff991534d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-round-detail.fbx using Guid(edfce58a36de947498a0bff991534d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd231d7ab9c7bb11872df2301587a18dc') in 0.0834769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-round.fbx
+  artifactKey: Guid(febd97852087cef4f85c5b534c417d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-round.fbx using Guid(febd97852087cef4f85c5b534c417d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab748fe49052602a33baa0bc32254544') in 0.0838289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-corner.fbx
+  artifactKey: Guid(888c00270ddbdca49b4d407a9f1a27fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-corner.fbx using Guid(888c00270ddbdca49b4d407a9f1a27fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f19f52c13a97b8792e0ab50ae16643f') in 0.0954096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/chimney-base.fbx
+  artifactKey: Guid(46264c56be2ea204d9a368cbd3a43521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/chimney-base.fbx using Guid(46264c56be2ea204d9a368cbd3a43521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f37f08af2d15156223a66b95646c1b4e') in 0.0595751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-gate.fbx
+  artifactKey: Guid(3d4d75cc729406d4b8d3c112a35ea355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-gate.fbx using Guid(3d4d75cc729406d4b8d3c112a35ea355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5db99f43950bc13c9c987ce4232030b') in 0.0684489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-center.fbx
+  artifactKey: Guid(071a1756597e6754c8a283c291e09b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/fountain-center.fbx using Guid(071a1756597e6754c8a283c291e09b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddc9ca5401b1ba49731e6afa66c726f1') in 0.0979044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-large-gate.fbx
+  artifactKey: Guid(678207e1668bf8942b5e0ae31cf49ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/hedge-large-gate.fbx using Guid(678207e1668bf8942b5e0ae31cf49ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '313b89df0f13f231de264320260751ea') in 0.0577631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/banner-green.fbx
+  artifactKey: Guid(b64f88c2b32fc4542b37e4e71acb134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/banner-green.fbx using Guid(b64f88c2b32fc4542b37e4e71acb134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170c103e60d98aa2f3133e12cb6ce187') in 0.0543455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.635763 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-doorway-square-wide-curved.fbx
+  artifactKey: Guid(ee49b4a71193d0b488a5a6f443765be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-doorway-square-wide-curved.fbx using Guid(ee49b4a71193d0b488a5a6f443765be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e21046db67fe60bcc4c40b9bdd1150e3') in 0.0545008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-round.fbx
+  artifactKey: Guid(960269c154eb25d40b0d987ba464879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-round.fbx using Guid(960269c154eb25d40b0d987ba464879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55cfb446d5932ea30a6e4bf25cd234ac') in 0.0559329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-shutters.fbx
+  artifactKey: Guid(165ac6fbb802c6d428077e98569dc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-shutters.fbx using Guid(165ac6fbb802c6d428077e98569dc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70360b3dd545e43cf654d1d2d2aa6f8c') in 0.048328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-small.fbx
+  artifactKey: Guid(5da5c4dac83d9e1499b7ebaf14fdcdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-window-small.fbx using Guid(5da5c4dac83d9e1499b7ebaf14fdcdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'feb5ef2e059d460c241161683fa7063d') in 0.0636671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-wood-arch-top.fbx
+  artifactKey: Guid(8ea4f06a4f354e04c9a5c9eafe001440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-wood-arch-top.fbx using Guid(8ea4f06a4f354e04c9a5c9eafe001440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d3a19022fa159c9ef9457f7e9bcf87c') in 0.0490339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-slope.fbx
+  artifactKey: Guid(a9d905e507e5aa0479f7c1b43b3c2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/DungeonKit/fantasy town/Models_int/FBX format/wall-slope.fbx using Guid(a9d905e507e5aa0479f7c1b43b3c2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1fbc32d73c42aea132cc7404b25650c') in 0.050858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

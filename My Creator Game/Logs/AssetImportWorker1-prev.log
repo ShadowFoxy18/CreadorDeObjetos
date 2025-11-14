@@ -1,0 +1,491 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7488]  Target information:
+
+Player connection [7488] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7488] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006390 seconds.
+- Loaded All Assemblies, in  3.904 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 4383ms
+	BeginReloadAssembly (3576ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (3572ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (168ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (483ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.372 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.600 seconds
+Domain Reload Profiling: 11961ms
+	BeginReloadAssembly (1000ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (9259ms)
+		LoadAssemblies (9100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (168ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (756ms)
+			ProcessInitializeOnLoadMethodAttributes (382ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (3.7 MB). Loaded Objects now: 6873.
+Memory consumption went from 218.1 MB to 214.3 MB.
+Total: 11.770000 ms (FindLiveObjects: 0.734300 ms CreateObjectMapping: 0.402000 ms MarkObjects: 8.148200 ms  DeleteObjects: 2.483200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18660.375085 seconds.
+  path: Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_windmill_green_building_windmill_top_green_building_windmill_top_fan_green.obj
+  artifactKey: Guid(11fe606ff40b0d44f8011927fe936650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/Eviroment hexa/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/buildings/green/building_windmill_green_building_windmill_top_green_building_windmill_top_fan_green.obj using Guid(11fe606ff40b0d44f8011927fe936650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f09e0aa80f69a800d5575e09ebf5e5') in 3.9512587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 6377.900393 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0083458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.632942 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Animations/fbx/Rig_Medium/Rig_Medium_MovementBasic.fbx
+  artifactKey: Guid(5c85e43293d465148a570c7bfc618e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Animations/fbx/Rig_Medium/Rig_Medium_MovementBasic.fbx using Guid(5c85e43293d465148a570c7bfc618e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c176bb3de4768f9f5acb0a7566c41b3c') in 0.2303703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.013724 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_bow_bundle.fbx
+  artifactKey: Guid(8243206e827181d478fd244458de7093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_bow_bundle.fbx using Guid(8243206e827181d478fd244458de7093) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37402edc6b5c5afcc766d8ea0d363205') in 0.0459387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/crossbow_2handed.fbx
+  artifactKey: Guid(5f5b571acaf842a48aeb1ec7aaa36904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/crossbow_2handed.fbx using Guid(5f5b571acaf842a48aeb1ec7aaa36904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7ef3263f9153b6456cf21b8cd3cb94a') in 0.0635273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_round_barbarian.fbx
+  artifactKey: Guid(f329b35d9b7573642b1b392e04f47f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_round_barbarian.fbx using Guid(f329b35d9b7573642b1b392e04f47f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37beb824d853e40bf007ed6943a2c8bf') in 0.083539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_badge.fbx
+  artifactKey: Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_badge.fbx using Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189111df27ba77730bb91ccc523bef5a') in 0.0596548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_round_color.fbx
+  artifactKey: Guid(f4c76295daffc5547a67c9580d047703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_round_color.fbx using Guid(f4c76295daffc5547a67c9580d047703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e8b32b407f740adbbf494987c0ef2de') in 0.0898399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/bow.fbx
+  artifactKey: Guid(ec9122366ceabb7489bedfddec6f45c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/bow.fbx using Guid(ec9122366ceabb7489bedfddec6f45c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6eb54a2dd4ac57fd0260d275587a14f') in 0.0783766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/mug_full.fbx
+  artifactKey: Guid(3c5fee122c28cbe41a944d5fb07e29e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/mug_full.fbx using Guid(3c5fee122c28cbe41a944d5fb07e29e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69032f296652a78c30123c42e8927123') in 0.1154617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/rogue_texture.png
+  artifactKey: Guid(a179ac54358798c46bea4d2055edeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/rogue_texture.png using Guid(a179ac54358798c46bea4d2055edeb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40893f7758a700f058ba3548bdbab1f1') in 0.2192884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/sword_2handed_color.fbx
+  artifactKey: Guid(44c03ba0986b7d347b0d5e3e7c3bdc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/sword_2handed_color.fbx using Guid(44c03ba0986b7d347b0d5e3e7c3bdc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '579df3c96dab4a75d0feca6e3a30ea6e') in 0.1112166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_spikes_color.fbx
+  artifactKey: Guid(38f67c058ece0fc488c4e1212d3add4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_spikes_color.fbx using Guid(38f67c058ece0fc488c4e1212d3add4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571ecc3c6066489d35412b72dcd6b468') in 0.0801799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_square.fbx
+  artifactKey: Guid(a67990555ee062a478197608d698d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_square.fbx using Guid(a67990555ee062a478197608d698d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d5f71634bd5d131c9c04f00cc1cbc2c') in 0.0596722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/crossbow_1handed.fbx
+  artifactKey: Guid(dd81539b64984074c91225353303fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/crossbow_1handed.fbx using Guid(dd81539b64984074c91225353303fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d4155c74bcf14cc434c248dbfdd718') in 0.0648397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/smokebomb.fbx
+  artifactKey: Guid(c4b848239820a2b4ca0a9726933ae1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/smokebomb.fbx using Guid(c4b848239820a2b4ca0a9726933ae1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957d2219084426cf13ee530c51d0e633') in 0.0595828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/axe_1handed.fbx
+  artifactKey: Guid(d7b3e175649b90d4ab69b36651af6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/axe_1handed.fbx using Guid(d7b3e175649b90d4ab69b36651af6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9374295df96894ecb2d8ad58ec08eac1') in 0.0705805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_spikes.fbx
+  artifactKey: Guid(4ccf072808a032545973a476e8f101cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/shield_spikes.fbx using Guid(4ccf072808a032545973a476e8f101cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d6ba59abe9f49dd4268f2412ff0f82d') in 0.0617754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/bow_withString.fbx
+  artifactKey: Guid(1d859a59af2be8d44a503ed6ef52973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/bow_withString.fbx using Guid(1d859a59af2be8d44a503ed6ef52973a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1ec636e4cec1d0552ef0e979ac118a2') in 0.0660303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_crossbow.fbx
+  artifactKey: Guid(3aef0cb502ff71d4ea1cbb6a050661cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_crossbow.fbx using Guid(3aef0cb502ff71d4ea1cbb6a050661cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9676cbaca819a57e9efc1f38bfe04916') in 0.0634232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_crossbow_bundle.fbx
+  artifactKey: Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/fbx(unity)/arrow_crossbow_bundle.fbx using Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '104a88108bfabc84e27405e51b8bb48a') in 0.077562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841017 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_bow_bundle.obj
+  artifactKey: Guid(9c4477bcc275a3f4d8962d67930fc086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_bow_bundle.obj using Guid(9c4477bcc275a3f4d8962d67930fc086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17fa7535acc3e33583bb775386d8e636') in 0.0590479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_square.obj
+  artifactKey: Guid(fff1fa3672aba5643a875bc973fc4037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_square.obj using Guid(fff1fa3672aba5643a875bc973fc4037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '233fa96c5ba8a10f5ccc1b84bb992106') in 0.0524695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/quiver.obj
+  artifactKey: Guid(ec2308e248179a14cadb71a2098fa449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/quiver.obj using Guid(ec2308e248179a14cadb71a2098fa449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '370bad4311a05324dfb4e8ac1d2428cb') in 0.0528981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/mug_empty.obj
+  artifactKey: Guid(4916a3da5ee329040a536cbe68652b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/mug_empty.obj using Guid(4916a3da5ee329040a536cbe68652b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f8fa0da5ab34c035a0b0337e57aa474') in 0.0616968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_round.obj
+  artifactKey: Guid(5ff88b760ea539744bdbf8cb602f9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_round.obj using Guid(5ff88b760ea539744bdbf8cb602f9527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f556aae405d1171f96333012b8717afe') in 0.0567197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/barbarian_texture.png
+  artifactKey: Guid(fbfb5c25dadc12840b795a9bbf59cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/barbarian_texture.png using Guid(fbfb5c25dadc12840b795a9bbf59cced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e082bf81bc4202c5cff6c3a9815147') in 0.0216324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_badge.obj
+  artifactKey: Guid(a10dffe5059953a4da4189a2e76f0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_badge.obj using Guid(a10dffe5059953a4da4189a2e76f0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '491c24459387e9518427b5bc4e321728') in 0.224521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/rogue_texture.png
+  artifactKey: Guid(accf216afac738b459063a7397ee9ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/rogue_texture.png using Guid(accf216afac738b459063a7397ee9ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81367e6ef3993c8772ef03b3b84a63b') in 0.0158479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/ranger_texture.png
+  artifactKey: Guid(287b1504075232b4eb326a28f92e04ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/ranger_texture.png using Guid(287b1504075232b4eb326a28f92e04ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f72ac944c3a94879c719b869548183b') in 0.0182462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_round_barbarian.obj
+  artifactKey: Guid(f664bd8f216e2d64c92cf4f12c66ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_round_barbarian.obj using Guid(f664bd8f216e2d64c92cf4f12c66ffd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0028722a0b29a04c544d2f26bffc3603') in 0.1200061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_badge_color.obj
+  artifactKey: Guid(162c87facf9fb6844b6b70fab19c016c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_badge_color.obj using Guid(162c87facf9fb6844b6b70fab19c016c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '989263767931f70446ca89cf41cee22b') in 0.1123501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_crossbow_bundle.obj
+  artifactKey: Guid(29cdf02634a8a304aad418bdc3ad82fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_crossbow_bundle.obj using Guid(29cdf02634a8a304aad418bdc3ad82fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cd3e2f0e7c7cd306f5ce011d943627e') in 0.1496397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/mage_texture.png
+  artifactKey: Guid(40b1fc8260b375f4e9af8f59bce2b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/mage_texture.png using Guid(40b1fc8260b375f4e9af8f59bce2b211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e08fae72f8bd3e30c8ccb86ebc84acf5') in 0.0579883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_spikes.obj
+  artifactKey: Guid(4cb5bceee8987664f9c634fa403f0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/shield_spikes.obj using Guid(4cb5bceee8987664f9c634fa403f0241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b95954a002eceacf11eea28763b34ee') in 0.1773168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/axe_2handed.obj
+  artifactKey: Guid(8ed7c9a33422cca42bd48f076e38ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/axe_2handed.obj using Guid(8ed7c9a33422cca42bd48f076e38ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74de5116eb6ec0b50407efdea38b6ba2') in 0.2096173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_crossbow.obj
+  artifactKey: Guid(66a531466cbf14343bd056b5ae8aaa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/obj/arrow_crossbow.obj using Guid(66a531466cbf14343bd056b5ae8aaa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d32658b9312154c1e6fceb664aaf353') in 0.1310996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.336657 seconds.
+  path: Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/gltf/ranger_texture.png
+  artifactKey: Guid(84a3dd84b819d2042942bba2a62b5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Character/alies/KayKit_Adventurers_2.0_FREE/Assets/gltf/ranger_texture.png using Guid(84a3dd84b819d2042942bba2a62b5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1746a6c27236cc76b54a37cccc2f6df5') in 0.0218474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

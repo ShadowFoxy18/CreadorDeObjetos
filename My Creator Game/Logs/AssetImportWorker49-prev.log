@@ -1,0 +1,397 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 15917 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker49
+-projectPath
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+-logFile
+Logs/AssetImportWorker49.log
+-srvPort
+58382
+-job-worker-count
+10
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35736]  Target information:
+
+Player connection [35736]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 619007005 [EditorId] 619007005 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35736] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 10
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Arc(TM) Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     9073 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005282 seconds.
+- Loaded All Assemblies, in  0.523 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 951ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.952 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.879 seconds
+Domain Reload Profiling: 1827ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (879ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (3.9 MB). Loaded Objects now: 6874.
+Memory consumption went from 212.0 MB to 208.1 MB.
+Total: 10.523300 ms (FindLiveObjects: 1.444000 ms CreateObjectMapping: 0.372900 ms MarkObjects: 6.738400 ms  DeleteObjects: 1.966500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59902.075653 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-corner-inner.fbx
+  artifactKey: Guid(1fb21a2bd26625c46ad3a9abb2b61603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-corner-inner.fbx using Guid(1fb21a2bd26625c46ad3a9abb2b61603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24e07395182fda1954c9450855891ea') in 0.5451894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.321060 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-corner-round.fbx
+  artifactKey: Guid(238b90950fe39d147bfb3b00d357eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-corner-round.fbx using Guid(238b90950fe39d147bfb3b00d357eb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eaeec6f0a392bd12efc121bf9c34e24') in 0.1438818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186032 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-end.fbx
+  artifactKey: Guid(4f758bb1fbee40b4a9575c663cb18df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-end.fbx using Guid(4f758bb1fbee40b4a9575c663cb18df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591e7ef6a553ede8946e83130364a92c') in 0.1218733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-slope.fbx
+  artifactKey: Guid(7d38c4fa954118542ab2d8f13525861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-slope.fbx using Guid(7d38c4fa954118542ab2d8f13525861e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e3c17c2e807b1386896bb24bb4dd48') in 0.1140273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-slope-large.fbx
+  artifactKey: Guid(1f6482a7781ddee4e9dc0f7de3144a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-slope-large.fbx using Guid(1f6482a7781ddee4e9dc0f7de3144a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b417e3a7d13c9fae403ec2f05eabe4') in 0.1376804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-waterfall.fbx
+  artifactKey: Guid(8415156001510d3469e76b21c71c25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-river-waterfall.fbx using Guid(8415156001510d3469e76b21c71c25e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ef0b51449b03cc354d94632ada7880e') in 0.0976321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-spawn-round.fbx
+  artifactKey: Guid(ac21792b06d19ee449605e4913e4e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-spawn-round.fbx using Guid(ac21792b06d19ee449605e4913e4e395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0fd30b009306f536adbbd0638c68842') in 0.1722727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-spawn-end-round.fbx
+  artifactKey: Guid(ae4c52e7fed1ae04886739a391d9edc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-spawn-end-round.fbx using Guid(ae4c52e7fed1ae04886739a391d9edc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b31ae4460507d932f12f816dea0ae384') in 0.1505306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770641 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-wide-split.fbx
+  artifactKey: Guid(86b041db947f09141a15f909c53eed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-tile-wide-split.fbx using Guid(86b041db947f09141a15f909c53eed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c083581e96ad666135546625dbbb7827') in 0.0877964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-wood-structure-high-part.fbx
+  artifactKey: Guid(ac37c3cad813afd4b90cc2c3612d3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-wood-structure-high-part.fbx using Guid(ac37c3cad813afd4b90cc2c3612d3396) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '653e26d8cc62c261c292f45861c33f32') in 0.1434756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-wood-structure.fbx
+  artifactKey: Guid(97d6a027fa9dd2140bd760f6176af723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/snow-wood-structure.fbx using Guid(97d6a027fa9dd2140bd760f6176af723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084ec71d4b57114cf47ab23edb30b839') in 0.1915837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065717 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-corner-square.fbx
+  artifactKey: Guid(218a0357656cae941bb97ac043a07444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-corner-square.fbx using Guid(218a0357656cae941bb97ac043a07444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfdfc470d5f82bc7d7ae1ddfef9c52fd') in 0.1658368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-river-bridge.fbx
+  artifactKey: Guid(acf74605b3ff7ce4498e10c83a67470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-river-bridge.fbx using Guid(acf74605b3ff7ce4498e10c83a67470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e661f38bab38b3a14bd60b494f72f1') in 0.1458469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-split.fbx
+  artifactKey: Guid(a23e8ccdae7b8e540ac3982c92d6f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-split.fbx using Guid(a23e8ccdae7b8e540ac3982c92d6f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37708cd7625a73d8be91075c07cc47df') in 0.0662321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-spawn-end.fbx
+  artifactKey: Guid(02a8a50de31115e4ca733b543d65430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-spawn-end.fbx using Guid(02a8a50de31115e4ca733b543d65430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c84ab738f16785fe2b67ceffe504014') in 0.0734086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-river-slope-large.fbx
+  artifactKey: Guid(2ae059d97af391b438cc592578168bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-river-slope-large.fbx using Guid(2ae059d97af391b438cc592578168bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c402769e7f37cf2e895e5c8a900005c3') in 0.1571678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-tree.fbx
+  artifactKey: Guid(3364d2fe1b0526646bc72ba68f418a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tile-tree.fbx using Guid(3364d2fe1b0526646bc72ba68f418a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe7d5cd494e50cf77b1469df6e12196a') in 0.2697545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-crystals.fbx
+  artifactKey: Guid(ece4285b50d27474b892508eb151f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-crystals.fbx using Guid(ece4285b50d27474b892508eb151f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27342d23837f5f7bdbfdd0f613e67d75') in 0.6328338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-middle-c.fbx
+  artifactKey: Guid(a19a3250f5170474d938cb7bf1028e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-middle-c.fbx using Guid(a19a3250f5170474d938cb7bf1028e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82853655ae75f28ed3e28b5c0bf60413') in 0.2116383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-top-c.fbx
+  artifactKey: Guid(bee5e81aa4399dd4eb6773f10dd42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-top-c.fbx using Guid(bee5e81aa4399dd4eb6773f10dd42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '938ab5658c7ae89f0aee929b0f2245b3') in 0.087223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-top-a.fbx
+  artifactKey: Guid(7200082d3776fbf45b15d37cbf3d989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-top-a.fbx using Guid(7200082d3776fbf45b15d37cbf3d989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3c58451161b284957ea307982883ba2') in 0.301064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-build-a.fbx
+  artifactKey: Guid(e0fba5cc031c52b4885027eebefa000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-build-a.fbx using Guid(e0fba5cc031c52b4885027eebefa000f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '436d946b69597efb3e3e46034291c0ad') in 0.1418411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-middle-b.fbx
+  artifactKey: Guid(69fb78910878a40428a9b9841924bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-middle-b.fbx using Guid(69fb78910878a40428a9b9841924bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4b4bbaccbadaab4c3570fb6695b07c5') in 0.1690519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-middle-b.fbx
+  artifactKey: Guid(6e3dca04ef90bb940847c49de58a5404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-middle-b.fbx using Guid(6e3dca04ef90bb940847c49de58a5404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f23a0c56b0fd7724f41476fb6262fc') in 0.1214817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-roof-a.fbx
+  artifactKey: Guid(be72300d5d9206b4397d0c99e1b48c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-square-roof-a.fbx using Guid(be72300d5d9206b4397d0c99e1b48c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f668e7dbeb331bb2d259846d9d595e7') in 0.1242572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-top-c.fbx
+  artifactKey: Guid(f4366529346fc3848b6d07082bc322e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Enviroment/enviroment tower defense/Models/FBX format/tower-round-top-c.fbx using Guid(f4366529346fc3848b6d07082bc322e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ad5e3b634efdf84decb9386c34f1de0') in 0.1478468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
