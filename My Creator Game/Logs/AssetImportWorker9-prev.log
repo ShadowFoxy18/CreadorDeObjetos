@@ -15,7 +15,7 @@ C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-58382
+62967
 -job-worker-count
 10
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Diego/Desktop/Diego/Github/CreadorDeObjetos/My Creator Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19408]  Target information:
+Player connection [17720]  Target information:
 
-Player connection [19408]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 1504477834 [EditorId] 1504477834 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17720]  * "[IP] 192.168.1.54 [Port] 0 [Flags] 2 [Guid] 2410557784 [EditorId] 2410557784 [Version] 1048832 [Id] WindowsEditor(7,Asus-Zenbook-14) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19408] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17720] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17720] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 10
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008335 seconds.
-- Loaded All Assemblies, in  0.978 seconds
+Registered in 0.006471 seconds.
+- Loaded All Assemblies, in  0.966 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.358 seconds
-Domain Reload Profiling: 1325ms
-	BeginReloadAssembly (412ms)
+- Finished resetting the current domain, in  0.481 seconds
+Domain Reload Profiling: 1439ms
+	BeginReloadAssembly (398ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (107ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (159ms)
-	LoadAllAssembliesAndSetupDomain (255ms)
-		LoadAssemblies (404ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (388ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (244ms)
-				TypeCache.ScanAssembly (227ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (301ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (359ms)
+	FinalizeReload (482ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (307ms)
+		SetupLoadedEditorAssemblies (418ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (34ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,244 +136,196 @@ Domain Reload Profiling: 1325ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.136 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.687 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
 	UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets, Unity.RenderPipelines.Universal.Runtime (1 object)
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.990 seconds
-Domain Reload Profiling: 2120ms
-	BeginReloadAssembly (470ms)
+- Finished resetting the current domain, in  1.847 seconds
+Domain Reload Profiling: 3525ms
+	BeginReloadAssembly (707ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (398ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (852ms)
+		LoadAssemblies (557ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (169ms)
-			BuildScriptInfoCaches (83ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (991ms)
+		AnalyzeDomain (435ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (265ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1847ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (717ms)
+		SetupLoadedEditorAssemblies (1306ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (81ms)
-			ProcessInitializeOnLoadAttributes (502ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (942ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 212 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6089 unused Assets / (4.1 MB). Loaded Objects now: 6874.
-Memory consumption went from 216.0 MB to 211.9 MB.
-Total: 9.422900 ms (FindLiveObjects: 0.607500 ms CreateObjectMapping: 0.380300 ms MarkObjects: 5.951500 ms  DeleteObjects: 2.482500 ms)
+Unloading 213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6089 unused Assets / (3.9 MB). Loaded Objects now: 6875.
+Memory consumption went from 208.2 MB to 204.3 MB.
+Total: 13.261700 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 0.443600 ms MarkObjects: 8.926700 ms  DeleteObjects: 3.140200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25466.578074 seconds.
-  path: Assets/Kit/Character/alies/character prefap/arrow_crossbow_bundle.fbx
-  artifactKey: Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/character prefap/arrow_crossbow_bundle.fbx using Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '938956fa80c9209593b00984e087f014') in 1.2385125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Kit/Character/alies/character prefap/mug_empty.fbx
-  artifactKey: Guid(23ebd503f883ae6498f8fbb2d880677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/character prefap/mug_empty.fbx using Guid(23ebd503f883ae6498f8fbb2d880677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fd04f1f3cefb704b56ca4c0cf6b9b37') in 0.1452139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.647407 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/arrow_crossbow_bundle.fbx
-  artifactKey: Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/arrow_crossbow_bundle.fbx using Guid(b2a7fdedea24d90458d87cb3910f0be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdae061a36a6c6c387ead3b234cbecc4') in 0.2082943 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/shield_badge.fbx
-  artifactKey: Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/shield_badge.fbx using Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '947889734f22489f2a6feb83b54fe1c9') in 0.0809354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/wand.fbx
-  artifactKey: Guid(df934b471b3928a42a80a71a2002673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/wand.fbx using Guid(df934b471b3928a42a80a71a2002673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77340a5f8127cc068207bd1a367da83c') in 0.2054241 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/smokebomb.fbx
-  artifactKey: Guid(c4b848239820a2b4ca0a9726933ae1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/smokebomb.fbx using Guid(c4b848239820a2b4ca0a9726933ae1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06ffe841bb6e9f9549fc3acc60f9eb28') in 0.1418274 seconds
+  Time since last request: 105919.334568 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/snow-tile-tree.fbx
+  artifactKey: Guid(2d73e0e6f49074e41919f7de5b32b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/snow-tile-tree.fbx using Guid(2d73e0e6f49074e41919f7de5b32b1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29ec09cc4081a8235a86eea969eee650') in 1.2763263 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/shield_round.fbx
-  artifactKey: Guid(5db921ecc87ddfe4eb8e3418415c790d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/shield_round.fbx using Guid(5db921ecc87ddfe4eb8e3418415c790d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '247106192ae35e13e0920ab4fe5a76e8') in 0.1944787 seconds
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-corner-square.fbx
+  artifactKey: Guid(8888b8ae7adbbe34a93cbaab08fa82fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-corner-square.fbx using Guid(8888b8ae7adbbe34a93cbaab08fa82fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c35997c829397bca894336ea71bc09d6') in 0.3089706 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.304291 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/crossbow_2handed.fbx
-  artifactKey: Guid(5f5b571acaf842a48aeb1ec7aaa36904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/crossbow_2handed.fbx using Guid(5f5b571acaf842a48aeb1ec7aaa36904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ed0953f5d29db68f929b787ee413fc') in 0.0763495 seconds
+  Time since last request: 0.083248 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-end-round.fbx
+  artifactKey: Guid(669309354c6032c47855e531aae4adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-end-round.fbx using Guid(669309354c6032c47855e531aae4adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87ea65106234e749a221e76c21a8644') in 0.1992657 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/shield_badge.fbx
-  artifactKey: Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/shield_badge.fbx using Guid(fb51bf48a7e34274e80893444e506e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db394dfbc52f2a62b272578835ff9c82') in 0.2153134 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-river-slope-large.fbx
+  artifactKey: Guid(e760d5216bab3ca47be7dd093e5493a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-river-slope-large.fbx using Guid(e760d5216bab3ca47be7dd093e5493a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89e3a536c625197e5074fe1d8e9aaf4d') in 0.2924246 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/shield_spikes_color.fbx
-  artifactKey: Guid(38f67c058ece0fc488c4e1212d3add4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/shield_spikes_color.fbx using Guid(38f67c058ece0fc488c4e1212d3add4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09efd1d6d06478567328971555d346da') in 0.0931248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/staff.fbx
-  artifactKey: Guid(d88ef8fadc6e4734a85d42472924a74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/staff.fbx using Guid(d88ef8fadc6e4734a85d42472924a74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1f5cbcf5fd8588c70d79c29f37b75f') in 0.1724425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Kit/Character/alies/equip prefap/mug_empty.fbx
-  artifactKey: Guid(23ebd503f883ae6498f8fbb2d880677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/equip prefap/mug_empty.fbx using Guid(23ebd503f883ae6498f8fbb2d880677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da17592a38d5f2e98b758652fbac58c2') in 0.0581473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.847980 seconds.
-  path: Assets/Kit/Character/alies/character prefab/Ranger.fbx
-  artifactKey: Guid(481e03247b2fd2849a4dd450ebeec89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/character prefab/Ranger.fbx using Guid(481e03247b2fd2849a4dd450ebeec89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de57f016d30886d476d9583411eb479') in 1.2871294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.314374 seconds.
-  path: Assets/Kit/Character/alies/character prefab/Ranger.fbx
-  artifactKey: Guid(481e03247b2fd2849a4dd450ebeec89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/character prefab/Ranger.fbx using Guid(481e03247b2fd2849a4dd450ebeec89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329727aebd707b186d892739bddbe23f') in 0.9733778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Kit/Character/alies/character prefab/Rogue_Hooded.fbx
-  artifactKey: Guid(c87636f9072224f4c983dc43c8e170db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/alies/character prefab/Rogue_Hooded.fbx using Guid(c87636f9072224f4c983dc43c8e170db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac2a689ed0fa9157bf78c5d598e08769') in 0.3880742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 86
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.591376 seconds.
-  path: Assets/Kit/Character/enemies/Animations/fbx/Rig_Medium/Rig_Medium_MovementBasic.fbx
-  artifactKey: Guid(e439f74c77125ac4abbdb8bb67f337fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/Animations/fbx/Rig_Medium/Rig_Medium_MovementBasic.fbx using Guid(e439f74c77125ac4abbdb8bb67f337fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66c84f625b8a6aef1edfcd29021ea848') in 0.3374269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.129603 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Arrow_Broken.fbx
-  artifactKey: Guid(40330d2f448901e48964c705a68fef95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Arrow_Broken.fbx using Guid(40330d2f448901e48964c705a68fef95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a537f986009a0aa5e90fdb79dbeeca3b') in 0.044597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Shield_Small_B.fbx
-  artifactKey: Guid(9f42290a22aa2d342810e0fed118365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Shield_Small_B.fbx using Guid(9f42290a22aa2d342810e0fed118365d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '739a9dc970658836453c724552b351c4') in 0.0728363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/skeleton_texture.png
-  artifactKey: Guid(b7c86cc818f6be144a5fb9c7a7ebda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/skeleton_texture.png using Guid(b7c86cc818f6be144a5fb9c7a7ebda28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '643746cfc1f93197e75d5d533b026ba7') in 0.0482553 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Quiver.fbx
-  artifactKey: Guid(96d5d72abf358654c84f0d131ac8b2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Quiver.fbx using Guid(96d5d72abf358654c84f0d131ac8b2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9bf8eac9db9f628f5a83aa3fb645a98') in 0.0907239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Shield_Large_B.fbx
-  artifactKey: Guid(1c8feed8d116ae04ba39fd26bd81616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Shield_Large_B.fbx using Guid(1c8feed8d116ae04ba39fd26bd81616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '627a5dbdbf97a9ddc1a5c9d1656d5653') in 0.069629 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-straight.fbx
+  artifactKey: Guid(0fa0fd74169d76a4f9aa8a9475cec880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-straight.fbx using Guid(0fa0fd74169d76a4f9aa8a9475cec880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b78453ac2aa3a617119469016d9cb43') in 0.3049006 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000043 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Blade.fbx
-  artifactKey: Guid(1334822f4b1099142924fcf4bacfa0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Blade.fbx using Guid(1334822f4b1099142924fcf4bacfa0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4fe669588e66d1ef0b98ab6329227e') in 0.0769154 seconds
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-tree.fbx
+  artifactKey: Guid(2a4fdd81c50b8d447983a5dcb25deb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-tree.fbx using Guid(2a4fdd81c50b8d447983a5dcb25deb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877497058d2a09c2445e42ba760def7e') in 0.1862822 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Staff.fbx
-  artifactKey: Guid(a7caa796040d578458e46182b1d3908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/assets/fbx(unity)/Skeleton_Staff.fbx using Guid(a7caa796040d578458e46182b1d3908f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64a181022a29a9a624e211aefb790894') in 0.1321667 seconds
+  path: Assets/Kit/Tower Defense/Models/FBX format/tile-tree-quad.fbx
+  artifactKey: Guid(8fdbea3bc9e414e4ca829317cc3a552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tile-tree-quad.fbx using Guid(8fdbea3bc9e414e4ca829317cc3a552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09575e15f03f1cb607256f72cc1d9c97') in 0.065229 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.778597 seconds.
-  path: Assets/Kit/Character/enemies/characters/fbx/Skeleton_Warrior.fbx
-  artifactKey: Guid(0441bfd23e1995747a60a779add15566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kit/Character/enemies/characters/fbx/Skeleton_Warrior.fbx using Guid(0441bfd23e1995747a60a779add15566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '846e9fffddedd79e4df7b00d2bb756cd') in 0.5159672 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+  Time since last request: 0.878827 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-round-bottom-a.fbx
+  artifactKey: Guid(a6133cf893e529643ba40c35413259f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-round-bottom-a.fbx using Guid(a6133cf893e529643ba40c35413259f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58072e3792bb70d02af597d05c7f4355') in 0.0507977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-round-build-b.fbx
+  artifactKey: Guid(b25396f6db64b6644a5662b2932e3346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-round-build-b.fbx using Guid(b25396f6db64b6644a5662b2932e3346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea9c05c00080c88303b6929efa15bf04') in 0.1044211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-round-build-e.fbx
+  artifactKey: Guid(e0997db5bb4aca74db1812099bf64962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-round-build-e.fbx using Guid(e0997db5bb4aca74db1812099bf64962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e46d8b48682ea6d363f8e644eead3a83') in 0.1884555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-round-top-b.fbx
+  artifactKey: Guid(13c3ad07d672f6b429864fc108b6ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-round-top-b.fbx using Guid(13c3ad07d672f6b429864fc108b6ab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69b105f40b60f73c36c87da61c7386ba') in 0.1470395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-round-crystals.fbx
+  artifactKey: Guid(ece4285b50d27474b892508eb151f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-round-crystals.fbx using Guid(ece4285b50d27474b892508eb151f31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85f304fbcb1e3f0791750d5500584f1a') in 0.3498335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744785 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-square-build-c.fbx
+  artifactKey: Guid(148a7398c218d6c4b89a1a7cc1bd447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-square-build-c.fbx using Guid(148a7398c218d6c4b89a1a7cc1bd447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '468f63f683e18ef3ad0d202e2f1b929d') in 0.1381447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322122 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-square-roof-b.fbx
+  artifactKey: Guid(b9c793b93ab6b17459a0f69f5fdea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-square-roof-b.fbx using Guid(b9c793b93ab6b17459a0f69f5fdea271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da17c154605cf3143c56b10a6f824103') in 0.1033823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/tower-square-top-b.fbx
+  artifactKey: Guid(b94ba1a0fb787f74987b78e366193e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/tower-square-top-b.fbx using Guid(b94ba1a0fb787f74987b78e366193e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaa74009fddbf3bdcfa07ca13098af47') in 0.1416515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170111 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/weapon-ammo-cannonball.fbx
+  artifactKey: Guid(e248014d3ca6b2441958a29f74a6dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/weapon-ammo-cannonball.fbx using Guid(e248014d3ca6b2441958a29f74a6dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29729dfe078db8513f3ee5527d1b39f0') in 0.0678336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055482 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/weapon-catapult.fbx
+  artifactKey: Guid(6a5e2382f73c3cf43baa2d38d00d6b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/weapon-catapult.fbx using Guid(6a5e2382f73c3cf43baa2d38d00d6b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe86b17116a5ac332bbbbe92e764c0cc') in 0.1325101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260244 seconds.
+  path: Assets/Kit/Tower Defense/Models/FBX format/wood-structure-part.fbx
+  artifactKey: Guid(0204af35689d7d84fa67d483cf0486c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kit/Tower Defense/Models/FBX format/wood-structure-part.fbx using Guid(0204af35689d7d84fa67d483cf0486c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57b69326b98d3049d101b216b3c8ab8') in 0.053255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
