@@ -1,16 +1,6 @@
-using UnityEngine;
-
-public class IEstadoObjeto : MonoBehaviour
+public interface IEstadoObjeto
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    void EntrarEstado(StateMachineObject stateObjeto);
+    void EjecutarEstado(StateMachineObject stateObjeto);
+    void SalirEstado(StateMachineObject stateObjeto);
 }
