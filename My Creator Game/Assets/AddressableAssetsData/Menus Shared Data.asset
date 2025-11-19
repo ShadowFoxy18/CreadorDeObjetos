@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menus Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menus
+  m_TableCollectionNameGuidString: d3f74e2f6a085af40a2d8a16e8f70a42
+  m_Entries:
+  - m_Id: 26563129344
+    m_Key: _crear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60180475904
+    m_Key: _mover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78375366656
+    m_Key: _rotar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96155021312
+    m_Key: _eliminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120641368064
+    m_Key: _back
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1880667805010100484
+  references:
+    version: 2
+    RefIds:
+    - rid: 1880667805010100484
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1763567722438

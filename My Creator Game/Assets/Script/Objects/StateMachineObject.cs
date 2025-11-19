@@ -3,10 +3,10 @@ using UnityEngine;
 public class StateMachineObject : MonoBehaviour
 {
     [SerializeField]
-    GameObject canvasElegir, canvasCrear, canvasDefensas, canvasEntorno;
+    GameObject canvasElegir, canvasCrear, canvasMover, canvasRotar, canvasEliminar;
 
 
-    private IEstadoObjeto estadoActual;
+    public IEstadoObjeto estadoActual;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -43,14 +43,6 @@ public class StateMachineObject : MonoBehaviour
     {
         canvasElegir.SetActive(true);
         canvasCrear.SetActive(false);
-        canvasDefensas.SetActive(false);
-        canvasEntorno.SetActive(false);
-    }
-
-    void ButtonRetorno()
-    {
-        SalirEstado();
-        
     }
 
 
@@ -62,10 +54,24 @@ public class StateMachineObject : MonoBehaviour
     }
 
 
-    public void ButtonDefensas()
+    public void ButtonMover()
     {
         canvasCrear.SetActive(false);
-        canvasDefensas.SetActive(true);
+        canvasMover.SetActive(true);
+    }
+
+
+    public void ButtonRotar()
+    {
+        canvasCrear.SetActive(false);
+        canvasRotar.SetActive(true);
+    }
+
+
+    public void ButtonEliminar()
+    {
+        canvasCrear.SetActive(false);
+        canvasEliminar.SetActive(true);
     }
 
 
