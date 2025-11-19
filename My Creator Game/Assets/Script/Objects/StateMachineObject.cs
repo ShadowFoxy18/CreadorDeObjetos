@@ -26,7 +26,7 @@ public class StateMachineObject : MonoBehaviour
     }
 
 
-    void CambiarEstado(IEstadoObjeto nuevoEstado)
+    public void CambiarEstado(IEstadoObjeto nuevoEstado)
     {
         if (estadoActual != null)
         {
@@ -43,35 +43,10 @@ public class StateMachineObject : MonoBehaviour
     {
         canvasElegir.SetActive(true);
         canvasCrear.SetActive(false);
-    }
-
-
-    public void ButtonCrear()
-    {
-        CambiarEstado(new EstadoCrear());
-        canvasElegir.SetActive(false);
-        canvasCrear.SetActive(true);
-    }
-
-
-    public void ButtonMover()
-    {
-        canvasCrear.SetActive(false);
-        canvasMover.SetActive(true);
-    }
-
-
-    public void ButtonRotar()
-    {
-        canvasCrear.SetActive(false);
-        canvasRotar.SetActive(true);
-    }
-
-
-    public void ButtonEliminar()
-    {
-        canvasCrear.SetActive(false);
-        canvasEliminar.SetActive(true);
+        canvasMover.SetActive(false);
+        canvasRotar.SetActive(false);
+        canvasEliminar.SetActive(false);
+        CambiarEstado(new EstadoMenu());
     }
 
 

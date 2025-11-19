@@ -3,7 +3,7 @@ using UnityEngine;
 public class EstadoCrear : MonoBehaviour, IEstadoObjeto
 {
     [SerializeField]
-    GameObject canvaElegir, canvasDefensas, canvasEntorno;
+    GameObject canvasCrear, canvasDefensas, canvasEntorno;
 
     public enum TiposCrear
     {
@@ -21,8 +21,7 @@ public class EstadoCrear : MonoBehaviour, IEstadoObjeto
     GameObject[] prefabsEntorno, imagenesEntorno;
 
     /*
-    [SerializeField]
-    TextMeshProUGUI[] textodefensas, textoentorno;
+    public TextMeshProUGUI[] textodefensas, textoentorno;
     */
     //
 
@@ -33,6 +32,7 @@ public class EstadoCrear : MonoBehaviour, IEstadoObjeto
     {
         canvasDefensas.SetActive(false);
         canvasEntorno.SetActive(false);
+        canvasCrear.SetActive(true);
 
     }
 
@@ -71,6 +71,6 @@ public class EstadoCrear : MonoBehaviour, IEstadoObjeto
     public void SalirEstado(StateMachineObject stateObjeto)
     {
         Debug.Log("Saliendo del estado Crear");
-        canvaElegir.SetActive(false);
+        canvasCrear.SetActive(false);
     }
 }

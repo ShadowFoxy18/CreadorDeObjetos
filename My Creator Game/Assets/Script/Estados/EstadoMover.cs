@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class EstadoMover : MonoBehaviour, IEstadoObjeto
 {
+    [SerializeField]
+    GameObject canvasMover;
+
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
         Debug.Log("Entrando en el estado Mover");
+        canvasMover.SetActive(true);
     }
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
@@ -14,6 +18,7 @@ public class EstadoMover : MonoBehaviour, IEstadoObjeto
 
     public void SalirEstado(StateMachineObject stateObjeto)
     {
+        canvasMover.SetActive(false);
         Debug.Log("Saliendo del estado Mover");
     }
 }
