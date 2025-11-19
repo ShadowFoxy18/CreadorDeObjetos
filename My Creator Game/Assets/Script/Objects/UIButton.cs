@@ -10,6 +10,10 @@ public class UIButton : MonoBehaviour
         if (stateMachine == null)
         {
             stateMachine = GetComponent<StateMachineObject>();
+            if (stateMachine == null)
+            {
+                stateMachine = FindAnyObjectByType<StateMachineObject>();
+            }
         }
     }
 

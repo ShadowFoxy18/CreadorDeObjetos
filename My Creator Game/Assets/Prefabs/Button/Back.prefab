@@ -123,8 +123,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -7232192353677976754}
-        m_TargetAssemblyTypeName: ButtonBack, Assembly-CSharp
-        m_MethodName: BackButton
+        m_TargetAssemblyTypeName: UIButton, Assembly-CSharp
+        m_MethodName: Back
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

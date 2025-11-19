@@ -18,7 +18,6 @@ public class StateMachineObject : MonoBehaviour
 
     /// <summary>
     /// Estado Crear
-    /// </summary>
     /// Canvas de creación
     /// 
     [SerializeField]
@@ -39,7 +38,8 @@ public class StateMachineObject : MonoBehaviour
     //getters
     public GameObject[] _prefabsEntorno { get { return prefabsEntorno; } }
     public GameObject[] _imagenesEntorno { get { return imagenesEntorno; } }
-    //
+    /// </summary>
+
 
     public TextMeshProUGUI[] textoAtack, tectoAtackSpeed, textoExp;
 
