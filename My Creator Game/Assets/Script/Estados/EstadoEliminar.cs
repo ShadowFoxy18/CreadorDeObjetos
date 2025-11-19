@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class EstadoEliminar : MonoBehaviour, IEstadoObjeto
+public class EstadoEliminar : IEstadoObjeto
 {
-    [SerializeField]
-    GameObject canvasEliminar;
+    private StateMachineObject stateObjetoMenu;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
+        stateObjetoMenu = stateObjeto;
+
         Debug.Log("Entrando en el estado Eliminar");
-        canvasEliminar.SetActive(true);
+        stateObjeto._canvasEliminar.SetActive(true);
     }
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
@@ -18,7 +19,7 @@ public class EstadoEliminar : MonoBehaviour, IEstadoObjeto
 
     public void SalirEstado(StateMachineObject stateObjeto)
     {
-        canvasEliminar.SetActive(false);
+        stateObjeto._canvasEliminar.SetActive(false);
         Debug.Log("Saliendo del estado Eliminar");
     }
 }

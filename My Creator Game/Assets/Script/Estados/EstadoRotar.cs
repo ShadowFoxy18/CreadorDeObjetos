@@ -1,14 +1,15 @@
 using UnityEngine;
 
-public class EstadoRotar : MonoBehaviour, IEstadoObjeto
+public class EstadoRotar : IEstadoObjeto
 {
-    [SerializeField]
-    GameObject canvasRotar;
+    private StateMachineObject stateObjetoMenu;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
+        stateObjetoMenu = stateObjeto;
+
         Debug.Log("Entrando en el estado Rotar");
-        canvasRotar.SetActive(true);
+        stateObjeto._canvasRotar.SetActive(true);
     }
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
@@ -18,7 +19,7 @@ public class EstadoRotar : MonoBehaviour, IEstadoObjeto
 
     public void SalirEstado(StateMachineObject stateObjeto)
     {
-        canvasRotar.SetActive(false);
+        stateObjeto._canvasRotar.SetActive(false);
         Debug.Log("Saliendo del estado Rotar");
     }
 }

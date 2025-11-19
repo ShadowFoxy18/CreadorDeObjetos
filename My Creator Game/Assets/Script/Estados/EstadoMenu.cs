@@ -1,48 +1,13 @@
 using UnityEngine;
 
-public class EstadoMenu : MonoBehaviour, IEstadoObjeto
+public class EstadoMenu : IEstadoObjeto
 {
-    [SerializeField]
-    GameObject canvasElegir, canvasCrear, canvasMover, canvasRotar, canvasEliminar;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
-        canvasElegir.SetActive(true);  
+        stateObjeto._canvasElegir.SetActive(true);  
         Debug.Log("Entrando en el estado Menú");
     }
-
-
-    public void ButtonCrear(StateMachineObject stateObjeto)
-    {
-        stateObjeto.CambiarEstado(new EstadoCrear());
-        canvasElegir.SetActive(false);
-        canvasCrear.SetActive(true);
-    }
-
-
-    public void ButtonMover(StateMachineObject stateObjeto)
-    {
-        stateObjeto.CambiarEstado(new EstadoMover());
-        canvasCrear.SetActive(false);
-        canvasMover.SetActive(true);
-    }
-
-
-    public void ButtonRotar(StateMachineObject stateObjeto)
-    {
-        stateObjeto.CambiarEstado(new EstadoRotar());
-        canvasCrear.SetActive(false);
-        canvasRotar.SetActive(true);
-    }
-
-
-    public void ButtonEliminar(StateMachineObject stateObjeto)
-    {
-        stateObjeto.CambiarEstado(new EstadoEliminar());
-        canvasCrear.SetActive(false);
-        canvasEliminar.SetActive(true);
-    }
-
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
@@ -51,7 +16,7 @@ public class EstadoMenu : MonoBehaviour, IEstadoObjeto
 
     public void SalirEstado(StateMachineObject stateObjeto)
     {
-        canvasElegir.SetActive(false);
+        stateObjeto._canvasElegir.SetActive(false);
         Debug.Log("Saliendo del estado Menú");
     }
 }

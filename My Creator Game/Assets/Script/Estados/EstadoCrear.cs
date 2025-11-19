@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public class EstadoCrear : MonoBehaviour, IEstadoObjeto
+public class EstadoCrear : IEstadoObjeto
 {
-    [SerializeField]
-    GameObject canvasCrear, canvasDefensas, canvasEntorno;
 
     public enum TiposCrear
     {
@@ -12,65 +10,50 @@ public class EstadoCrear : MonoBehaviour, IEstadoObjeto
         vacio
     }
 
-
-    //Prefabs e imágenes de los objetos a crear
-    [SerializeField]  
-    GameObject[] prefabsDefensas, imagenesDefensas;
-
-    [SerializeField]
-    GameObject[] prefabsEntorno, imagenesEntorno;
-
-    /*
-    public TextMeshProUGUI[] textodefensas, textoentorno;
-    */
-    //
-
-
+    private StateMachineObject stateObjetoMenu;
     public TiposCrear tipoCrearActual;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
-        canvasDefensas.SetActive(false);
-        canvasEntorno.SetActive(false);
-        canvasCrear.SetActive(true);
+        stateObjetoMenu = stateObjeto;
+        stateObjeto._canvasDefensas.SetActive(false);
+        stateObjeto._canvasEntorno.SetActive(false);
+        stateObjeto._canvasCrear.SetActive(true);
 
     }
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
+        
+
         switch (tipoCrearActual)
         {
             case TiposCrear.defensa:
                 Debug.Log("Creando defensa...");
-                TipoDefensa();
+                TipoX(stateObjeto._prefabsDefensas, stateObjeto._imagenesDefensas);
                 // Lógica para crear una defensa
                 break;
             case TiposCrear.entorno:
                 Debug.Log("Creando entorno...");
-                TipoEntorno();
+                TipoX(stateObjeto._prefabsEntorno, stateObjeto._imagenesEntorno);
                 // Lógica para crear un objeto de entorno
                 break;
         }
     }
 
 
-    void TipoDefensa()
+    void TipoX(GameObject[] stateObjetoCrear, GameObject[] stateObjetoImagen)
     {
         Debug.Log("Función para crear defensa ejecutada.");
         // Aquí iría la lógica específica para crear defensas
-    }
 
 
-    void TipoEntorno()
-    {
-        Debug.Log("Función para crear entorno ejecutada.");
-        // Aquí iría la lógica específica para crear objetos de entorno
     }
 
 
     public void SalirEstado(StateMachineObject stateObjeto)
     {
         Debug.Log("Saliendo del estado Crear");
-        canvasCrear.SetActive(false);
+        stateObjetoMenu._canvasCrear.SetActive(false);
     }
 }
