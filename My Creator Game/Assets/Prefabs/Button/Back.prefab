@@ -16,7 +16,7 @@ GameObject:
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 3906520785265345981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0372341, y: 1.0372341, z: 1.0372341}
+  m_LocalScale: {x: 2.8368793, y: 2.8368797, z: 2.8368793}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 373164823288389786}
@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateMachine: {fileID: 0}
+  tipoBotonMenuButton: 0
 --- !u!1 &5671386500451284471
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,8 +240,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.45
-  m_fontSizeBase: 17.45
+  m_fontSize: 11.62
+  m_fontSizeBase: 11.62
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

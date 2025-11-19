@@ -18,6 +18,7 @@ public class EstadoCrear : IEstadoObjeto
         stateObjetoMenu = stateObjeto;
         stateObjeto._canvasDefensas.SetActive(false);
         stateObjeto._canvasEntorno.SetActive(false);
+        stateObjeto._cSelecCrear.SetActive(true);
         stateObjeto._canvasCrear.SetActive(true);
 
     }

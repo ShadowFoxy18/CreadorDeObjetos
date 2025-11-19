@@ -19,7 +19,12 @@ public class StateMachineObject : MonoBehaviour
     /// <summary>
     /// Estado Crear
     /// Canvas de creación
-    /// 
+    
+    [SerializeField] GameObject canvasSeleccionCrear;
+    //getter
+    public GameObject _cSelecCrear { get { return canvasSeleccionCrear; } }
+
+
     [SerializeField]
     GameObject canvasDefensas, canvasEntorno;
     //getters
