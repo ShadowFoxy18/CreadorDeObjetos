@@ -5,89 +5,49 @@ public class UIButton : MonoBehaviour
     [SerializeField]
     private StateMachineObject stateMachine;
 
-    //Menu 
-    public enum TipoBotonInit
-    {
-        Crear,
-        Mover,
-        Rotar,
-        Eliminar,
-        vacio
-    }
-
-    private TipoBotonInit tipoBotonMenu;
     [SerializeField]
-    private TipoBotonInit tipoBotonMenuButton;
-    //
-
-
-    // back
-    public enum TipoBotonBack
-    {
-        menu,
-        crear,
-        //selCrear,
-    }
-    [SerializeField]
-    private TipoBotonBack tipoBotonBack;
-    //
+    public enum TipoDeCrear {vacio, Defensas, Entorno, back}
+    public TipoDeCrear tipoDeCrear;
+    private TipoDeCrear tipoActual;
 
 
     void Start()
     {
-        tipoBotonMenu = TipoBotonInit.vacio;
+        stateMachine = FindAnyObjectByType<StateMachineObject>();
         if (stateMachine == null)
         {
             stateMachine = GetComponent<StateMachineObject>();
         }
-    }
+    } 
 
     void Update()
     {
-        // back
-        switch (tipoBotonBack)
+        if (stateMachine == null) return;
+
+        switch (tipoActual)
         {
-            case TipoBotonBack.menu:
-                ElegirMenu(TipoBotonInit.vacio);
+            case TipoDeCrear.Defensas:
+                stateMachine._cSelecCrear.SetActive(false);
+                stateMachine._canvasDefensas.SetActive(true);
                 break;
-            case TipoBotonBack.crear:
+            case TipoDeCrear.Entorno:
+                stateMachine._cSelecCrear.SetActive(false);
+                stateMachine._canvasEntorno.SetActive(true);
                 break;
-        }
-        //
-        // menu
-        switch (tipoBotonMenu)
-        {
-            case TipoBotonInit.Crear:
-                stateMachine.CambiarEstado(new EstadoCrear());
+            case TipoDeCrear.back:
+                stateMachine._canvasDefensas.SetActive(false);
+                stateMachine._canvasEntorno.SetActive(false);
+                stateMachine._cSelecCrear.SetActive(true);
                 break;
-            case TipoBotonInit.Mover:
-                stateMachine.CambiarEstado(new EstadoMover());
-                break;
-            case TipoBotonInit.Rotar:
-                stateMachine.CambiarEstado(new EstadoRotar());
-                break;
-            case TipoBotonInit.Eliminar:
-                stateMachine.CambiarEstado(new EstadoEliminar());
-                break;
-            case TipoBotonInit.vacio:
+            case TipoDeCrear.vacio:
                 break;
         }   
-        //
+        tipoActual = TipoDeCrear.vacio;
     }
 
     /// <summary>
     /// Botones del menú principal
     /// </summary>
-    public void ElegirMenu()
-    {
-        tipoBotonMenu = tipoBotonMenuButton; 
-    }
-
-    public void ElegirMenu(TipoBotonInit tipo)
-    {
-        tipoBotonMenu = tipo; 
-    }
-
     public void Crear() 
     {
         stateMachine.CambiarEstado(new EstadoCrear());
@@ -114,7 +74,7 @@ public class UIButton : MonoBehaviour
     /// </summary>
     public void ElegirCrear()
     {
-        
+        tipoActual = tipoDeCrear;
     }
 
 
@@ -123,7 +83,7 @@ public class UIButton : MonoBehaviour
     /// </summary>
     public void Back()
     {
-        stateMachine = FindAnyObjectByType<StateMachineObject>();
+        if (stateMachine == null) return;
         if (stateMachine.estadoAnterior != null)
         {
             stateMachine.CambiarEstado(stateMachine.estadoAnterior);
