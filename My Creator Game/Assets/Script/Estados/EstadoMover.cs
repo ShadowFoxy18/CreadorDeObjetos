@@ -14,7 +14,6 @@ public class EstadoMover : IEstadoObjeto
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
-        Debug.Log("Ejecutando el estado Mover");
     }
 
     public void SalirEstado(StateMachineObject stateObjeto)

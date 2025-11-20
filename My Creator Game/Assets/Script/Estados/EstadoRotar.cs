@@ -14,7 +14,6 @@ public class EstadoRotar : IEstadoObjeto
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
-        Debug.Log("Ejecutando el estado Rotar");
     }
 
     public void SalirEstado(StateMachineObject stateObjeto)

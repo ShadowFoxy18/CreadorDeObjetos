@@ -11,7 +11,6 @@ public class EstadoMenu : IEstadoObjeto
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
-        Debug.Log("Ejecutando el estado Menú");
     }
 
     public void SalirEstado(StateMachineObject stateObjeto)

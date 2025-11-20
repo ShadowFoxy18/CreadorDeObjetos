@@ -2,16 +2,11 @@ using UnityEngine;
 
 public class EstadoCrear : IEstadoObjeto
 {
+    private GameObject[] prefabDefensa;
+    private GameObject[] prefabEntorno;
 
-    public enum TiposCrear
-    {
-        defensa,
-        entorno,
-        vacio
-    }
 
     private StateMachineObject stateObjetoMenu;
-    public TiposCrear tipoCrearActual;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
@@ -20,26 +15,12 @@ public class EstadoCrear : IEstadoObjeto
         stateObjeto._canvasEntorno.SetActive(false);
         stateObjeto._cSelecCrear.SetActive(true);
         stateObjeto._canvasCrear.SetActive(true);
-
+        prefabDefensa = stateObjeto._prefabsDefensas;
+        prefabEntorno = stateObjeto._prefabsEntorno;
     }
 
     public void EjecutarEstado(StateMachineObject stateObjeto)
     {
-        
-
-        switch (tipoCrearActual)
-        {
-            case TiposCrear.defensa:
-                Debug.Log("Creando defensa...");
-                TipoX(stateObjeto._prefabsDefensas, stateObjeto._imagenesDefensas);
-                // Lógica para crear una defensa
-                break;
-            case TiposCrear.entorno:
-                Debug.Log("Creando entorno...");
-                TipoX(stateObjeto._prefabsEntorno, stateObjeto._imagenesEntorno);
-                // Lógica para crear un objeto de entorno
-                break;
-        }
     }
 
 

@@ -34,6 +34,9 @@ public class UIButton : MonoBehaviour
                 stateMachine._cSelecCrear.SetActive(false);
                 stateMachine._canvasEntorno.SetActive(true);
                 break;
+            
+
+            //boton de volver
             case TipoDeCrear.back:
                 stateMachine._canvasDefensas.SetActive(false);
                 stateMachine._canvasEntorno.SetActive(false);
@@ -76,7 +79,12 @@ public class UIButton : MonoBehaviour
     {
         tipoActual = tipoDeCrear;
     }
-
+/*
+    public void ElegirDefensas()
+    {
+        GameObject[] objecto = 
+    }
+*/
 
     /// <summary>
     /// Boton de volver al estado anterior
