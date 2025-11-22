@@ -7,6 +7,7 @@ public class EstadoCrear : IEstadoObjeto
 
 
     private StateMachineObject stateObjetoMenu;
+    private ObjetosACreacion objetosCreate;
 
     public void EntrarEstado(StateMachineObject stateObjeto)
     {
